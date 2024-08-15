@@ -1,0 +1,301 @@
+[
+    {
+        "id": 1,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "99e3b6a2-d097-463f-b6e1-3caceff300c9",
+        "explanation": {
+            "description": -0.014479660731060114,
+            "title": -0.0033325220289351257,
+            "summary": -0.0015836209905011125,
+            "author": -0.0011312839770084705,
+            "tags": -0.000578831970379924
+        }
+    },
+    {
+        "id": 2,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "5d8dc898-009a-4f86-9101-8b8ef6be7932",
+        "explanation": {
+            "description": -0.00867414304259798,
+            "summary": -0.002355742266462725,
+            "title": -0.001063155960193539,
+            "tags": 0.0008413734177047666,
+            "author": -3.089866490576199e-07
+        }
+    },
+    {
+        "id": 27,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "56dd6798-7d89-4ece-a1d2-5c305f590ed3",
+        "explanation": {
+            "description": -0.011083742672230053,
+            "tags": -0.006275898821420091,
+            "title": 0.00348274382560999,
+            "author": -0.003339828648456923,
+            "summary": -0.0029248431580325748
+        }
+    },
+    {
+        "id": 44,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "1870ecd6-47c9-4f29-bf54-4b9ad6fa80ff",
+        "explanation": {
+            "description": -0.009073891556878785,
+            "tags": -0.006575159269071141,
+            "title": 0.0030602699856497675,
+            "author": 0.00037548805265178646,
+            "summary": -0.00025584920153959875
+        }
+    },
+    {
+        "id": 55,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "eb5edab0-3e94-4553-8be0-92a24524a699",
+        "explanation": {
+            "author": -0.005727317945109005,
+            "summary": -0.0047959191384716006,
+            "title": -0.003049032073264792,
+            "description": -0.0012697898610818995,
+            "tags": -0.0004004795920590288
+        }
+    },
+    {
+        "id": 58,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "da5fa639-431a-4b2e-ae98-78a7874a030c",
+        "explanation": {
+            "description": -0.008435442979047787,
+            "author": -0.004306661418861428,
+            "summary": -0.0022724502276067027,
+            "tags": -0.002048417623077065,
+            "title": 0.0019741434588758434
+        }
+    },
+    {
+        "id": 61,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "f37e8af7-4b14-4d6b-8ef6-ba06c8870113",
+        "explanation": {
+            "description": -0.008380003232800944,
+            "author": -0.004074599221970711,
+            "tags": -0.0024424332681336446,
+            "title": 0.00010673610605826378,
+            "summary": -0.00010463363060081031
+        }
+    },
+    {
+        "id": 67,
+        "query": "cost of raising beef cattle",
+        "input_id": "00a002eb-ec29-409d-b72d-e012a6bb3590",
+        "candidate_id": "4211aeb6-8f69-4855-bc97-726285568ea8",
+        "explanation": {
+            "tags": -0.010162333544180079,
+            "title": -0.009625920782963222,
+            "description": -0.002477334665034485,
+            "summary": 0.0015874058223255335,
+            "author": -0.0015154465977581155
+        }
+    },
+    {
+        "id": 68,
+        "query": "cost of raising beef cattle",
+        "input_id": "00a002eb-ec29-409d-b72d-e012a6bb3590",
+        "candidate_id": "784f245b-d6dc-43b8-a199-08c9e3c92219",
+        "explanation": {
+            "description": -0.013253018802987735,
+            "title": -0.005227264748887198,
+            "tags": -0.004595870513554569,
+            "author": -0.001092807040805849,
+            "summary": 0.0004880589020368628
+        }
+    },
+    {
+        "id": 72,
+        "query": "cost of raising beef cattle",
+        "input_id": "00a002eb-ec29-409d-b72d-e012a6bb3590",
+        "candidate_id": "1256e4d7-40c9-4444-adce-ac0ece7bc77e",
+        "explanation": {
+            "description": -0.0058778948037756795,
+            "title": 0.005860668288719101,
+            "tags": -0.005324173074440907,
+            "summary": -0.004075999369478877,
+            "author": 0.0009099550118184666
+        }
+    },
+    {
+        "id": 79,
+        "query": "cost of raising beef cattle",
+        "input_id": "00a002eb-ec29-409d-b72d-e012a6bb3590",
+        "candidate_id": "8909e1a0-7f26-4911-943c-01ce60ea415d",
+        "explanation": {
+            "description": -0.006835003059669391,
+            "title": -0.00452128461842082,
+            "tags": -0.0033259474896503295,
+            "author": -0.0013868989815551838,
+            "summary": -0.00014903999013364527
+        }
+    },
+    {
+        "id": 103,
+        "query": "cost of raising beef cattle",
+        "input_id": "00a002eb-ec29-409d-b72d-e012a6bb3590",
+        "candidate_id": "35480019-80a8-462f-9c82-3f19c0b7c330",
+        "explanation": {
+            "summary": -0.007964487748307665,
+            "tags": -0.006416529029138601,
+            "title": 0.001689833714366634,
+            "author": 0.0008530980160263755,
+            "description": 0.0008430953746214862
+        }
+    },
+    {
+        "id": 130,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "d2ed07d8-6ed4-46da-8793-d51f1dc8f150",
+        "explanation": {
+            "tags": -0.005143016504152921,
+            "description": -0.004081669518961665,
+            "summary": -0.00298740327218976,
+            "title": -0.002182236320568512,
+            "author": 6.781828105119476e-05
+        }
+    },
+    {
+        "id": 131,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "e568538a-58a8-47e4-8637-2631266daf75",
+        "explanation": {
+            "description": -0.004104466296474875,
+            "tags": -0.003672934111972099,
+            "title": -0.0029657215873043776,
+            "author": -0.0021685211442614523,
+            "summary": -0.0021588108165278962
+        }
+    },
+    {
+        "id": 133,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "e30d859d-8d50-49e7-ae74-15da1e30bf78",
+        "explanation": {
+            "description": -0.012947108369893245,
+            "tags": -0.0015794897345433327,
+            "summary": -0.0008991430861051874,
+            "title": 0.0002793666340521505,
+            "author": 7.444468018958933e-05
+        }
+    },
+    {
+        "id": 136,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "ab2f7d9e-34cd-4bd6-94a9-5835c3cf8ec6",
+        "explanation": {
+            "description": -0.011495006319327754,
+            "tags": -0.002380262668455838,
+            "summary": 0.0014782928977708648,
+            "title": -0.0014293582105839085,
+            "author": 0.0004438894268776116
+        }
+    },
+    {
+        "id": 137,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "15921506-42ff-4bb9-a741-0b40b7e0a118",
+        "explanation": {
+            "description": -0.012814404334124889,
+            "tags": -0.0030592330358357902,
+            "summary": -0.0019498587530035745,
+            "author": -0.000598163351379565,
+            "title": 0.0004104439519939524
+        }
+    },
+    {
+        "id": 138,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "ac929a6d-2f7a-4054-b4d1-6122072eab0b",
+        "explanation": {
+            "description": -0.005628436805068788,
+            "tags": -0.0029401002187441154,
+            "title": -0.0025824629979917493,
+            "summary": 0.0006462041167454805,
+            "author": -0.00025545548002641464
+        }
+    },
+    {
+        "id": 140,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "d4e50e34-9d44-4dc2-aa32-846f0f96f6d4",
+        "explanation": {
+            "description": -0.014549403959387072,
+            "title": 0.0037568842354155207,
+            "tags": -0.0009451283537111948,
+            "summary": -0.000944058455803913,
+            "author": -0.00046304938229502603
+        }
+    },
+    {
+        "id": 154,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "0502bd55-7f51-4617-a55f-ffd3e7f4c42e",
+        "explanation": {
+            "description": -0.0075095285269895385,
+            "tags": -0.006176894860826262,
+            "title": -0.0035459227099005858,
+            "author": 0.0017324936301107098,
+            "summary": -0.00030472445636773313
+        }
+    },
+    {
+        "id": 157,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "010a90d7-ae65-4671-9575-4f5ec0496168",
+        "explanation": {
+            "summary": -0.00652338914951142,
+            "description": -0.0060219638337751956,
+            "title": -0.0033316729755109454,
+            "tags": 0.0020844387296970208,
+            "author": 0.0001019731121394744
+        }
+    },
+    {
+        "id": 161,
+        "query": "how many amusement parks us",
+        "input_id": "00c1c3e2-c45e-44ab-b57d-ff6d8784ce25",
+        "candidate_id": "42d6b6d1-8011-4794-8f3c-46a3fe7510cb",
+        "explanation": {
+            "title": -0.006554113111270672,
+            "description": -0.004836290971398077,
+            "tags": -0.0012790279909904018,
+            "author": 0.0009532815921309783,
+            "summary": 0.0003514556325480644
+        }
+    },
+    {
+        "id": 182,
+        "query": "mining manufacturing industries state",
+        "input_id": "010c414f-8bb5-48cf-aeb9-bcbe6c44fbec",
+        "candidate_id": "987a5c1c-2b92-471e-8428-7cb6ce89408f",
+        "explanation": {
+            "tags": -0.005709473983453998,
+            "summary": -0.0054633598835453915,
+            "title": -0.0037890443768777153,
+            "description": -0.003144933052689152,
+            "author": -0.0006644722287372443
+        }
+    }
+]

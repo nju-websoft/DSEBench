@@ -1,0 +1,2381 @@
+[
+    {
+        "id": 1,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "99e3b6a2-d097-463f-b6e1-3caceff300c9",
+        "explanation": {
+            "title": 0.012368486144688773,
+            "description": -0.008288350083249033,
+            "tags": 0.002152984131011962,
+            "author": 0.004421767441667279,
+            "summary": 0.008287884895961606
+        }
+    },
+    {
+        "id": 27,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "56dd6798-7d89-4ece-a1d2-5c305f590ed3",
+        "explanation": {
+            "title": -5.9197786902831506e-05,
+            "description": 0.00432602540692853,
+            "tags": 0.011979762665340538,
+            "author": 0.004320832618603748,
+            "summary": 0.004609032370630789
+        }
+    },
+    {
+        "id": 44,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "1870ecd6-47c9-4f29-bf54-4b9ad6fa80ff",
+        "explanation": {
+            "title": 0.00589115344464472,
+            "description": 0.0038383901283016997,
+            "tags": 0.010547386097486289,
+            "author": 0.004507058989902307,
+            "summary": 0.004604943049824978
+        }
+    },
+    {
+        "id": 58,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "da5fa639-431a-4b2e-ae98-78a7874a030c",
+        "explanation": {
+            "title": -0.00022116950940093139,
+            "description": -0.0007340439029481505,
+            "tags": 0.005084778327655609,
+            "author": 0.005180390542686181,
+            "summary": 0.009271831737041408
+        }
+    },
+    {
+        "id": 61,
+        "query": "utilization ratio bus car graph",
+        "input_id": "002ece58-9603-43f1-8e2e-54e3d9649e84",
+        "candidate_id": "f37e8af7-4b14-4d6b-8ef6-ba06c8870113",
+        "explanation": {
+            "title": 0.0006088760677021854,
+            "description": -0.0030832288861659396,
+            "tags": 0.005623692390989976,
+            "author": 0.005716740666785208,
+            "summary": 0.005800950384119236
+        }
+    },
+    {
+        "id": 338,
+        "query": "vacant houses us",
+        "input_id": "03e45d98-aa3a-4884-8606-f541bcbf7de7",
+        "candidate_id": "6c2adcac-f847-45ad-97ab-4a6189a2cd23",
+        "explanation": {
+            "title": 0.024436375167886687,
+            "description": 0.0015314330099023832,
+            "tags": 0.008784150666101304,
+            "author": -0.0034873767049036497,
+            "summary": -0.0024160358813901384
+        }
+    },
+    {
+        "id": 361,
+        "query": "vacant houses us",
+        "input_id": "03e45d98-aa3a-4884-8606-f541bcbf7de7",
+        "candidate_id": "8ce7caae-6e15-43a5-99c0-e514fe89c921",
+        "explanation": {
+            "title": 0.006402592480304198,
+            "description": 0.01034361168340675,
+            "tags": 0.00042831989691580197,
+            "author": -0.0012074985027200613,
+            "summary": 0.004680980241791477
+        }
+    },
+    {
+        "id": 362,
+        "query": "vacant houses us",
+        "input_id": "03e45d98-aa3a-4884-8606-f541bcbf7de7",
+        "candidate_id": "1bf0f2e9-ee0d-4d99-8d34-e4fbf59fd8b3",
+        "explanation": {
+            "title": 0.005092743053252968,
+            "description": 0.001254864753068713,
+            "tags": -0.0003482290541398092,
+            "author": -0.0007543970857452065,
+            "summary": 0.014510802838139825
+        }
+    },
+    {
+        "id": 595,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "06aede0a-6b2f-44f2-b8e6-20a0fba9460b",
+        "explanation": {
+            "title": 0.009128768566086937,
+            "description": 0.010017703333362576,
+            "tags": 0.0032760853015986746,
+            "author": -0.0082388239048036,
+            "summary": 0.007472737856969308
+        }
+    },
+    {
+        "id": 596,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "c219f4cf-30f4-4ca1-b3a6-7a55f5a95c52",
+        "explanation": {
+            "title": 0.011562786869623087,
+            "description": 0.006299773114823257,
+            "tags": 0.00744551415506535,
+            "author": -0.009333809626856954,
+            "summary": 0.005150893801804862
+        }
+    },
+    {
+        "id": 609,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "316217b7-3a6a-4909-9e5c-2972621d72cc",
+        "explanation": {
+            "title": 0.01871400922361177,
+            "description": -0.005993688357915819,
+            "tags": 0.008959345272466793,
+            "author": -0.011466879516126544,
+            "summary": 0.00563877033915669
+        }
+    },
+    {
+        "id": 614,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "74df254d-193e-4de7-aaf4-0d5f5b306e84",
+        "explanation": {
+            "title": 0.010008071333526658,
+            "description": 0.009057511313636232,
+            "tags": 0.0030462312536524566,
+            "author": -0.008228681528426124,
+            "summary": 0.007311871514725482
+        }
+    },
+    {
+        "id": 616,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "7a3d1279-326b-41d7-8182-46ca0019321d",
+        "explanation": {
+            "title": 0.01874232969212611,
+            "description": -0.007632713755034368,
+            "tags": 0.007397419310337508,
+            "author": -0.010183662581945835,
+            "summary": 0.009467528280724308
+        }
+    },
+    {
+        "id": 619,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "d21aa2cc-7575-40ff-a913-f369cbb1bb62",
+        "explanation": {
+            "title": 0.00768540198863546,
+            "description": 0.011922917244550454,
+            "tags": 0.0052073175573266045,
+            "author": -0.003797266623050799,
+            "summary": 0.00023883450326117606
+        }
+    },
+    {
+        "id": 620,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "26d67127-d094-4f3d-8078-5f77cce6fd24",
+        "explanation": {
+            "title": 0.010235634116573827,
+            "description": 0.0068692773215855985,
+            "tags": 0.005538171865108715,
+            "author": -0.0034975127070727974,
+            "summary": 0.0025374835734767454
+        }
+    },
+    {
+        "id": 621,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "de1041ab-bea3-4fd8-b0f2-3f5f5054fd65",
+        "explanation": {
+            "title": 0.0098912494009048,
+            "description": 0.006811322436439435,
+            "tags": 0.005919575168647953,
+            "author": -0.0035062651218053797,
+            "summary": 0.0024622301812970704
+        }
+    },
+    {
+        "id": 622,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "948cf7e0-d960-4915-beaa-6d61416bd156",
+        "explanation": {
+            "title": 0.005584301217198134,
+            "description": 0.012830421030675651,
+            "tags": 0.00530844812606672,
+            "author": -0.003858946171042238,
+            "summary": 0.0009611367592818609
+        }
+    },
+    {
+        "id": 646,
+        "query": "elementary junior high school students united states",
+        "input_id": "0c3900b4-3b8e-4421-bf49-b21dc7f7a2a1",
+        "candidate_id": "2c204aa5-ba15-4278-88fb-832015c75400",
+        "explanation": {
+            "title": 0.0055064199287835625,
+            "description": 0.011318273069953574,
+            "tags": 0.0059490466991495156,
+            "author": -0.0033191198172130565,
+            "summary": 0.0012659727225239892
+        }
+    },
+    {
+        "id": 650,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "b7ed59a5-7277-46bb-90a4-81a3578df9a3",
+        "explanation": {
+            "title": 0.002207065106241496,
+            "description": 0.003957645217845612,
+            "tags": 0.0040231717659417465,
+            "author": -0.0021957031237125613,
+            "summary": 0.009312727554056571
+        }
+    },
+    {
+        "id": 660,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "eaacbb8e-4ad0-49bf-972d-2b4b73680ee8",
+        "explanation": {
+            "title": 0.006940414988172244,
+            "description": -0.0009518045516969109,
+            "tags": 0.005670214727592576,
+            "author": -0.005146002342823447,
+            "summary": 0.013450527412821017
+        }
+    },
+    {
+        "id": 674,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "60927b02-fbaa-410a-9ba7-ea21b0d60760",
+        "explanation": {
+            "title": 0.006728765538812076,
+            "description": 0.004413425509368102,
+            "tags": 0.004637347634513261,
+            "author": 0.003245125319197989,
+            "summary": 0.0066241008638749654
+        }
+    },
+    {
+        "id": 677,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "d1338004-9142-4e86-a654-807b474ec224",
+        "explanation": {
+            "title": 0.004659496995492868,
+            "description": 0.0052891112830731335,
+            "tags": 0.004146321345661147,
+            "author": 0.002577326964378346,
+            "summary": 0.0022280110511325724
+        }
+    },
+    {
+        "id": 682,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "08f518fc-246f-4625-b587-59446f98a1ce",
+        "explanation": {
+            "title": 0.005557440546041265,
+            "description": 0.002802777753203492,
+            "tags": 0.0039052153060996214,
+            "author": -0.0017826169993646057,
+            "summary": 0.010963575912527668
+        }
+    },
+    {
+        "id": 686,
+        "query": "vacant houses us",
+        "input_id": "0c4888bf-4e8d-4e86-b774-0afda835bb86",
+        "candidate_id": "758c9e76-b7cc-4e30-a10a-14ff7975e559",
+        "explanation": {
+            "title": 0.005223498002285942,
+            "description": 0.002710711001642871,
+            "tags": 0.0038574906428436445,
+            "author": -0.0017054249043208514,
+            "summary": 0.011163494765421889
+        }
+    },
+    {
+        "id": 699,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "ac38f50b-5f98-4f14-9ae9-963e758ad308",
+        "explanation": {
+            "title": 0.015504410551150954,
+            "description": 0.006532252136528888,
+            "tags": 0.009697536536301898,
+            "author": 0.0050435522788169485,
+            "summary": 0.002650499234608944
+        }
+    },
+    {
+        "id": 700,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "89b6950e-1d6d-4dab-a98c-86754f39f38c",
+        "explanation": {
+            "title": 0.006642652079164257,
+            "description": 0.010969467816738812,
+            "tags": 0.0056181637700861015,
+            "author": 0.0047198039377645,
+            "summary": 0.005370988837822777
+        }
+    },
+    {
+        "id": 703,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "194cb4ba-11d0-4eed-b8d3-57e1725cf4a0",
+        "explanation": {
+            "title": 0.00915782373526075,
+            "description": 0.006372393620000527,
+            "tags": 0.006664920767214533,
+            "author": 0.0045139927987115636,
+            "summary": 0.0057699167843679455
+        }
+    },
+    {
+        "id": 710,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "ccdb114c-becc-4e2a-b6dc-5e52fa1d55e3",
+        "explanation": {
+            "title": 0.009102886442256597,
+            "description": 0.004696184332673131,
+            "tags": 0.0024572644899147067,
+            "author": 0.00441649089734944,
+            "summary": 0.011255476253151403
+        }
+    },
+    {
+        "id": 716,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "44ce392f-8baa-40fa-b3cd-fc4d80afbc09",
+        "explanation": {
+            "title": 0.011078656222662686,
+            "description": 0.0031417076809368977,
+            "tags": 0.0016760699069977153,
+            "author": 0.0032274265836629012,
+            "summary": 0.01246975768493816
+        }
+    },
+    {
+        "id": 727,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "5e05dddb-7ecd-4816-8e48-18ced33d6851",
+        "explanation": {
+            "title": 0.010056440885113982,
+            "description": 0.012348078657166167,
+            "tags": 0.0044919814281929316,
+            "author": 0.0034894830465057314,
+            "summary": 0.010595092251337118
+        }
+    },
+    {
+        "id": 733,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "3fd8159c-1043-4ac5-b030-547c998c3bcc",
+        "explanation": {
+            "title": 0.0066357473920653776,
+            "description": 0.0026458996837310372,
+            "tags": 0.0029968164674986225,
+            "author": 0.0041809381402649615,
+            "summary": 0.011241774094591789
+        }
+    },
+    {
+        "id": 737,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "f94a5256-c3f7-447c-ae00-f5fe615879bf",
+        "explanation": {
+            "title": 0.009891007155400117,
+            "description": 0.005757168844988225,
+            "tags": 0.0037762527139494073,
+            "author": 0.004238277063564361,
+            "summary": 0.010849150427571702
+        }
+    },
+    {
+        "id": 741,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "e85da966-42fe-4cc4-b5ac-c97a675d32bc",
+        "explanation": {
+            "title": 0.008964749814023731,
+            "description": -0.000876241246164769,
+            "tags": 0.0063875324681117035,
+            "author": 0.004528895772418773,
+            "summary": 0.011312986721471852
+        }
+    },
+    {
+        "id": 742,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "2c7f847e-d06a-4c93-ba4c-55f0fa91cad2",
+        "explanation": {
+            "title": 0.006777164818826564,
+            "description": 0.00043281880977430465,
+            "tags": 0.004905941007211145,
+            "author": 0.003776842399959457,
+            "summary": 0.010939104348005824
+        }
+    },
+    {
+        "id": 743,
+        "query": "united states births and deaths per second",
+        "input_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "candidate_id": "524f80b1-e973-4ec0-b540-fb6ad9cdda53",
+        "explanation": {
+            "title": 0.009797750993309956,
+            "description": 0.0029334091390781636,
+            "tags": 0.0048202113829213245,
+            "author": 0.003946264551413642,
+            "summary": 0.016601140757235705
+        }
+    },
+    {
+        "id": 849,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "b00866e5-606d-4a33-b498-220bc5a253dd",
+        "explanation": {
+            "title": -0.0011588553718312467,
+            "description": 0.0009373213584871892,
+            "tags": 0.002989858636088513,
+            "author": -0.0029422717865987824,
+            "summary": 0.003136108596069276
+        }
+    },
+    {
+        "id": 850,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "c261f3df-798a-41b4-becf-9a3b61a0fb48",
+        "explanation": {
+            "title": -0.004860270441605086,
+            "description": 0.004107571665315529,
+            "tags": 0.0014431660791515422,
+            "author": -0.0029646694467390378,
+            "summary": 0.0029808079749802097
+        }
+    },
+    {
+        "id": 851,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "492fdfb6-6801-4dbe-925c-f55e99aeef1c",
+        "explanation": {
+            "title": -0.0028028479878875745,
+            "description": 0.002943852926189927,
+            "tags": 0.0017028873397258726,
+            "author": -0.0025274025666889854,
+            "summary": 0.0024960850983721805
+        }
+    },
+    {
+        "id": 852,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "f5a96e1e-fc08-42eb-8420-2d17e000a53d",
+        "explanation": {
+            "title": -0.0035527007129129706,
+            "description": 0.002842910793805317,
+            "tags": 0.0015715873271901631,
+            "author": -0.0025274025666889854,
+            "summary": 0.0024960850983721805
+        }
+    },
+    {
+        "id": 856,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "8e23ebd9-7e3a-40b7-8b96-56328216b81e",
+        "explanation": {
+            "title": -0.001707674376143442,
+            "description": 0.0026152266926720846,
+            "tags": 0.0017898936348859362,
+            "author": -0.0027873637243047422,
+            "summary": 0.003627657633946929
+        }
+    },
+    {
+        "id": 860,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "5f370086-5cdb-4dc5-a2e5-3c697bd740c3",
+        "explanation": {
+            "title": 0.0022429282932040773,
+            "description": -0.0017554356962086876,
+            "tags": 0.0012618366290679667,
+            "author": 0.00014901968036815094,
+            "summary": 0.00567297619148352
+        }
+    },
+    {
+        "id": 866,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "265ca344-1b2a-4fa2-8bf8-5898103e3bd8",
+        "explanation": {
+            "title": -0.003132837272777189,
+            "description": 0.0029023834512565128,
+            "tags": 0.0017521861817384743,
+            "author": -0.002687108569811497,
+            "summary": 0.0029379972574970215
+        }
+    },
+    {
+        "id": 872,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "5a0511eb-be09-44ef-b1af-a0f869f5b154",
+        "explanation": {
+            "title": -0.0025419708597500257,
+            "description": 0.0059803388236024935,
+            "tags": 0.0009476042180354971,
+            "author": -0.0027453381244116615,
+            "summary": 0.0031901072392116203
+        }
+    },
+    {
+        "id": 874,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "da5c27c0-4310-47c3-91df-b34474816c83",
+        "explanation": {
+            "title": -0.0037027454079126276,
+            "description": 0.006905370910922193,
+            "tags": 0.0010550235705385769,
+            "author": -0.00259097528266633,
+            "summary": 0.002624691721397343
+        }
+    },
+    {
+        "id": 877,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "ac137f2a-d685-4d40-9396-aed53bec48a9",
+        "explanation": {
+            "title": 1.916995449197101e-05,
+            "description": -0.001979608577008407,
+            "tags": 0.0013082676109944513,
+            "author": -0.0027424593599146008,
+            "summary": 0.0033458658455615964
+        }
+    },
+    {
+        "id": 878,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "f9ec06e5-2562-46ef-88df-1acc0abcbab6",
+        "explanation": {
+            "title": -0.0013055196994290752,
+            "description": 0.0037765028437395237,
+            "tags": 0.0013375786676920604,
+            "author": -0.0027043375391501423,
+            "summary": 0.003053932954970612
+        }
+    },
+    {
+        "id": 879,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "513b430e-1f49-4f24-af8b-c0df5ced3cd8",
+        "explanation": {
+            "title": -0.001710182390667364,
+            "description": 0.003665397800327319,
+            "tags": 0.001141986248054755,
+            "author": -0.0026646891008493268,
+            "summary": 0.003410463576170475
+        }
+    },
+    {
+        "id": 880,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "06de6599-7c30-4b44-b996-a16ba0f31203",
+        "explanation": {
+            "title": 0.0015122673314925672,
+            "description": 0.00015319606977112765,
+            "tags": -0.0005995790373952425,
+            "author": -0.002740540183583162,
+            "summary": 0.002960416726459192
+        }
+    },
+    {
+        "id": 881,
+        "query": "number of americans in prison",
+        "input_id": "0e6a9944-32bc-4819-abca-90c4a9debd7e",
+        "candidate_id": "98484bc4-9219-43ff-a0c6-f3539881630a",
+        "explanation": {
+            "title": 0.0013190629778585261,
+            "description": 0.00020808887461333525,
+            "tags": -0.0003249623514306882,
+            "author": -0.002775870475138359,
+            "summary": 0.003006956752495432
+        }
+    },
+    {
+        "id": 1061,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "27f7c6ba-58b4-4407-abf8-d88ef5d75342",
+        "explanation": {
+            "title": -0.0009346295047382436,
+            "description": 0.007725228932254455,
+            "tags": 0.0006593065186234898,
+            "author": 0.0048838262728671256,
+            "summary": -0.003403920742520855
+        }
+    },
+    {
+        "id": 1062,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "e5495f74-9ec9-4c0c-81f0-308e32d71ef7",
+        "explanation": {
+            "title": -0.0018086799730924474,
+            "description": 0.007140551732038536,
+            "tags": 0.0007058029239079,
+            "author": 0.005574931933230776,
+            "summary": -0.00375186740432909
+        }
+    },
+    {
+        "id": 1063,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "f79ad69d-4212-4210-9614-23892d374abb",
+        "explanation": {
+            "title": -0.00115527176933225,
+            "description": 0.0074923694999453755,
+            "tags": 0.0005423430427144021,
+            "author": 0.005750263925328319,
+            "summary": -0.0024833091707301136
+        }
+    },
+    {
+        "id": 1064,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "4ce2b31a-746e-44a1-8773-1ff6b03c7bf1",
+        "explanation": {
+            "title": -0.0027692318707583097,
+            "description": 0.0076821830950802444,
+            "tags": 0.0003221644482101632,
+            "author": 0.004547676240785448,
+            "summary": -0.00024464527901035815
+        }
+    },
+    {
+        "id": 1065,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "6a2de4e6-2472-41f3-867e-165e9bc83aa9",
+        "explanation": {
+            "title": -0.0027302188850628073,
+            "description": 0.001742062442515721,
+            "tags": -0.0006516829197051183,
+            "author": 0.004204301581723191,
+            "summary": 0.007338754520891222
+        }
+    },
+    {
+        "id": 1066,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "77cfd194-f74f-4cf4-abc5-b997d9d74a69",
+        "explanation": {
+            "title": -0.0009782791913317546,
+            "description": 0.004899892980630066,
+            "tags": 0.0008768756209944495,
+            "author": 0.005258924592492192,
+            "summary": -3.170209451211492e-05
+        }
+    },
+    {
+        "id": 1067,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "4fcac770-08c7-4b45-95be-46a490484d07",
+        "explanation": {
+            "title": -0.0011254027891287044,
+            "description": 0.008235416993392322,
+            "tags": 0.0011433565263268969,
+            "author": 0.00624658501587344,
+            "summary": -0.005627509964809374
+        }
+    },
+    {
+        "id": 1068,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "24ff9360-2803-4a6d-8603-6e9b25960df7",
+        "explanation": {
+            "title": -0.002547921058592917,
+            "description": 0.003848537226540341,
+            "tags": -0.00020368056572751814,
+            "author": 0.0059203553671084985,
+            "summary": 0.004026338531441687
+        }
+    },
+    {
+        "id": 1069,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "2267a0c9-e1da-42b5-8c02-a5fe343e28c3",
+        "explanation": {
+            "title": -0.0033002958689626327,
+            "description": 0.002230964811623992,
+            "tags": -0.0004254119158813574,
+            "author": 0.005064636041839488,
+            "summary": 0.005081285032971061
+        }
+    },
+    {
+        "id": 1070,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "919b38d9-4e3b-4467-a03b-aacbe91f5dee",
+        "explanation": {
+            "title": -0.0031166393812993576,
+            "description": 0.0038043483886795876,
+            "tags": -0.0004717897078869576,
+            "author": 0.004144089168200832,
+            "summary": 0.00460715540858439
+        }
+    },
+    {
+        "id": 1071,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "5407b3c7-6c3a-4005-812f-1af7b67fc2f3",
+        "explanation": {
+            "title": -0.002009222678444861,
+            "description": 0.007162193263904493,
+            "tags": 0.00042914284265047065,
+            "author": 0.005914295306865047,
+            "summary": -0.0027041023976790424
+        }
+    },
+    {
+        "id": 1075,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "c6f9e965-4996-497e-982d-d61f69eaab6a",
+        "explanation": {
+            "title": 0.0014236181380493096,
+            "description": -0.00852720565920774,
+            "tags": -0.0005365309920538491,
+            "author": 0.006977976058923252,
+            "summary": 0.001243649445053785
+        }
+    },
+    {
+        "id": 1081,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "fd8621fe-2f5d-465c-8d09-e7354113ff65",
+        "explanation": {
+            "title": -0.00038754193087237043,
+            "description": 0.002420767623733458,
+            "tags": 0.0032284162220178464,
+            "author": 0.004463460812846876,
+            "summary": 0.004934463359883734
+        }
+    },
+    {
+        "id": 1082,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "0f19e1ab-3316-475d-bf79-578c9a8e13b0",
+        "explanation": {
+            "title": 0.0010525526699029508,
+            "description": -0.00367198675257889,
+            "tags": -0.0003190265878349613,
+            "author": 0.004408769308300836,
+            "summary": 0.01023979809345757
+        }
+    },
+    {
+        "id": 1083,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "5a736ad2-cb3b-4b9e-9ae0-b832183c2473",
+        "explanation": {
+            "title": 0.0007555665858716143,
+            "description": -0.0036658080790566566,
+            "tags": -0.00024435413732602773,
+            "author": 0.004429408018809727,
+            "summary": 0.010407689798067582
+        }
+    },
+    {
+        "id": 1084,
+        "query": "students start own business",
+        "input_id": "127aa123-579e-4aac-adc9-7aba8c8dab5d",
+        "candidate_id": "c1a49ca3-4848-47cf-9e89-72e6a47429fc",
+        "explanation": {
+            "title": 0.0025520617403250456,
+            "description": 0.003469697197120772,
+            "tags": -0.002529223292645974,
+            "author": 0.004640841579759775,
+            "summary": 0.007271339046438979
+        }
+    },
+    {
+        "id": 1091,
+        "query": "percentage of smokers in usa",
+        "input_id": "14581abd-8fad-4b49-92af-ae9bc1c904b0",
+        "candidate_id": "381afe44-3e5a-4c81-96aa-b00758622399",
+        "explanation": {
+            "title": 0.008086154047657224,
+            "description": 0.003714514673619565,
+            "tags": 0.005634314296015394,
+            "author": 0.002938933271227434,
+            "summary": 0.009933617720130655
+        }
+    },
+    {
+        "id": 1092,
+        "query": "percentage of smokers in usa",
+        "input_id": "14581abd-8fad-4b49-92af-ae9bc1c904b0",
+        "candidate_id": "ef605593-f1b3-40a4-a6a1-0c1fd2a4a381",
+        "explanation": {
+            "title": 0.018539664461268784,
+            "description": 0.0018388606104679794,
+            "tags": 0.008201505307606438,
+            "author": 0.003322603500761495,
+            "summary": -0.004080945859262858
+        }
+    },
+    {
+        "id": 1144,
+        "query": "percentage of smokers in usa",
+        "input_id": "14581abd-8fad-4b49-92af-ae9bc1c904b0",
+        "candidate_id": "c7c04b8a-6394-40bd-bc7d-cfd8b1f922f8",
+        "explanation": {
+            "title": 0.0123098844003047,
+            "description": 0.0005713135462322022,
+            "tags": -0.0022969736622523856,
+            "author": 0.004138314237022961,
+            "summary": 0.005384924257500895
+        }
+    },
+    {
+        "id": 1464,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "66af83f5-d0da-418b-aad6-9ec2555850e1",
+        "explanation": {
+            "title": 0.004718407218547049,
+            "description": -0.0010506109313476314,
+            "tags": 0.0030915143753252466,
+            "author": 0.004542489353733942,
+            "summary": 0.01225269448325747
+        }
+    },
+    {
+        "id": 1465,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "0173357f-5eec-4dee-9194-9e8eb75e4aea",
+        "explanation": {
+            "title": 0.004691005546688998,
+            "description": -0.002003036157352825,
+            "tags": 0.0031402923910377606,
+            "author": 0.005157181374575576,
+            "summary": 0.01193260300423074
+        }
+    },
+    {
+        "id": 1467,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "2a976546-10c9-4401-8870-602af52e6368",
+        "explanation": {
+            "title": 0.005396175195607172,
+            "description": -0.0012278967084642795,
+            "tags": 0.005025872649883259,
+            "author": 0.004802175562468147,
+            "summary": 0.010360068390404098
+        }
+    },
+    {
+        "id": 1469,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "22e424be-8eb9-4c91-9a26-c7f18714c8bc",
+        "explanation": {
+            "title": 0.004624368675902574,
+            "description": -0.00038468733780468167,
+            "tags": 0.005633518836716964,
+            "author": 0.0046762190660745995,
+            "summary": 0.011138584194264084
+        }
+    },
+    {
+        "id": 1470,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "8f421eb6-4b4f-45ae-b60a-418d51399fe4",
+        "explanation": {
+            "title": 0.004755579692573231,
+            "description": -0.0008707956021141577,
+            "tags": 0.0047797461432689675,
+            "author": 0.004792079066894495,
+            "summary": 0.010715399895917077
+        }
+    },
+    {
+        "id": 1471,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "a3eae57e-dddb-43df-8602-c87f6168f672",
+        "explanation": {
+            "title": 0.0038254427519582024,
+            "description": -0.0007472709498157482,
+            "tags": 0.004438397741303196,
+            "author": 0.004540014083851379,
+            "summary": 0.011136695172511563
+        }
+    },
+    {
+        "id": 1472,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "dab19d88-50d2-4a92-8057-51092fa3be08",
+        "explanation": {
+            "title": 0.0046045013781607635,
+            "description": 0.001814948215617035,
+            "tags": 0.00405771643238742,
+            "author": 0.004178581255206759,
+            "summary": 0.008762737651964225
+        }
+    },
+    {
+        "id": 1473,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "e1ba76f1-29cd-49ce-82dd-aed436cf432c",
+        "explanation": {
+            "title": 0.005347690303959679,
+            "description": 0.0015567167707611906,
+            "tags": 0.003842085684984481,
+            "author": 0.004347225300628033,
+            "summary": 0.00849699354588579
+        }
+    },
+    {
+        "id": 1474,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "7264c495-012b-4cbd-bfc8-aae074526a6c",
+        "explanation": {
+            "title": 0.0050363708339905,
+            "description": 0.0017702305110277178,
+            "tags": 0.0037742654614910526,
+            "author": 0.004384093794142285,
+            "summary": 0.008663010331168564
+        }
+    },
+    {
+        "id": 1475,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "83ef80b5-6c6c-486d-a91a-6eb8b0b889e5",
+        "explanation": {
+            "title": 0.004503145590337099,
+            "description": 0.001020082602795791,
+            "tags": 0.0038508794069357366,
+            "author": 0.004546766793794232,
+            "summary": 0.009232278978375363
+        }
+    },
+    {
+        "id": 1477,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "46025cdb-272a-4924-a414-66213ce178cd",
+        "explanation": {
+            "title": 0.004885943906389301,
+            "description": 0.0005904170056773017,
+            "tags": 0.004494199878129879,
+            "author": 0.004643410883683502,
+            "summary": 0.009767002411694509
+        }
+    },
+    {
+        "id": 1478,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "e5cf6043-690e-4549-a004-47d890502e92",
+        "explanation": {
+            "title": 0.005153772450263577,
+            "description": 0.001652839751201493,
+            "tags": 0.0036878807138782527,
+            "author": 0.004527225189458028,
+            "summary": 0.008491695599821325
+        }
+    },
+    {
+        "id": 1479,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "8732fde7-0c7f-4c6b-ba6f-8763f61b46f2",
+        "explanation": {
+            "title": 0.005643419916247283,
+            "description": 0.0017030291050049717,
+            "tags": 0.004362619742266205,
+            "author": 0.005088134372587705,
+            "summary": 0.008869087405340481
+        }
+    },
+    {
+        "id": 1480,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "e9dbdede-0c12-44a3-9b58-f62db00178dd",
+        "explanation": {
+            "title": 0.004541490560623418,
+            "description": 0.001173495053281709,
+            "tags": 0.0039646224006192055,
+            "author": 0.004404308498183407,
+            "summary": 0.008865830471284475
+        }
+    },
+    {
+        "id": 1481,
+        "query": "elderly medical expenses vs total",
+        "input_id": "25f7d9af-631f-47f4-bc8f-c64255b4be84",
+        "candidate_id": "d3c01ea4-4846-41de-80a6-009529684f8f",
+        "explanation": {
+            "title": 0.004802370978511522,
+            "description": -0.0017459446394165606,
+            "tags": 0.004243839357242776,
+            "author": 0.004719623140594653,
+            "summary": 0.010562562837114431
+        }
+    },
+    {
+        "id": 1742,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "26add50e-32e3-4848-b21a-83cceada1478",
+        "explanation": {
+            "title": -0.0005305302646062271,
+            "description": -0.001247829728360808,
+            "tags": -8.015629800857405e-05,
+            "author": -0.006166966464474982,
+            "summary": 0.01624638608481424
+        }
+    },
+    {
+        "id": 1744,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "b2fec698-9283-4a3d-abe8-504080ca7841",
+        "explanation": {
+            "title": -0.001818754922107868,
+            "description": -0.0011761500298690664,
+            "tags": -0.00019981180201320003,
+            "author": -0.00575095768097017,
+            "summary": 0.01629226458735389
+        }
+    },
+    {
+        "id": 1747,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "313c8e47-ad75-40a5-8d91-801c8855b42d",
+        "explanation": {
+            "title": -0.0020230890336571383,
+            "description": -0.004726993198096913,
+            "tags": 0.0002827863508920725,
+            "author": -0.0066571236468463135,
+            "summary": 0.016110978961604322
+        }
+    },
+    {
+        "id": 1754,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "2f012e1e-b907-4bc4-a030-bb945377c80a",
+        "explanation": {
+            "title": 7.738174095023309e-05,
+            "description": -0.0007810159650197962,
+            "tags": 0.00048324263663142297,
+            "author": -0.005922150036161006,
+            "summary": 0.018214879700449188
+        }
+    },
+    {
+        "id": 1761,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "a7e11742-efd9-4c9d-a33b-7f2ac8f16b88",
+        "explanation": {
+            "title": -0.00041893626890499025,
+            "description": -0.003796194845738135,
+            "tags": 0.00047848001112967,
+            "author": -0.006343795321406415,
+            "summary": 0.019854752156464345
+        }
+    },
+    {
+        "id": 1762,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "71c17c85-11e0-4e14-a218-fe4b09ce4aa2",
+        "explanation": {
+            "title": -0.0010999043280293663,
+            "description": 0.0011481313729609505,
+            "tags": 0.000541945272976227,
+            "author": -0.006322887832391932,
+            "summary": 0.017960254011354093
+        }
+    },
+    {
+        "id": 1778,
+        "query": "year most children born",
+        "input_id": "30156918-4daa-49b3-8ca4-904e5a5ab5f8",
+        "candidate_id": "d8fd369b-9c9d-4e64-b7ac-d7eebb84a8fb",
+        "explanation": {
+            "title": -0.006294901945842729,
+            "description": -0.004948509901192527,
+            "tags": -0.002299834715048188,
+            "author": -0.006208147882230813,
+            "summary": 0.021276920194475885
+        }
+    },
+    {
+        "id": 2249,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "ac38f50b-5f98-4f14-9ae9-963e758ad308",
+        "explanation": {
+            "title": 0.015708310435048306,
+            "description": 0.006618158366103494,
+            "tags": 0.009825069702901035,
+            "author": 0.005109880483987167,
+            "summary": 0.0026853561860824826
+        }
+    },
+    {
+        "id": 2250,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "explanation": {
+            "title": 0.00326278836631555,
+            "description": 0.005028769718160811,
+            "tags": 0.0020791056234016753,
+            "author": 0.004117324555686336,
+            "summary": 0.011511341559683447
+        }
+    },
+    {
+        "id": 2252,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "explanation": {
+            "title": 0.0087296778806564,
+            "description": 0.017503859686261322,
+            "tags": 0.006344117600030272,
+            "author": 0.004746245289557721,
+            "summary": 0.003396115477572209
+        }
+    },
+    {
+        "id": 2254,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "2d101a72-3b4d-4bb6-95dc-0e5bc7d9ebb5",
+        "explanation": {
+            "title": 0.004420737694974336,
+            "description": 0.0011107949380799037,
+            "tags": 0.0045931591742783134,
+            "author": 0.004384673982299414,
+            "summary": 0.011771869296067605
+        }
+    },
+    {
+        "id": 2255,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "8a7efb20-a580-4777-930d-6ead7fac2849",
+        "explanation": {
+            "title": 0.0034878172433558396,
+            "description": 1.2730925076809285e-05,
+            "tags": 0.004382892521793802,
+            "author": 0.004783829761200842,
+            "summary": 0.013558087604754243
+        }
+    },
+    {
+        "id": 2256,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "59195903-e028-4280-8177-fc792d6e719a",
+        "explanation": {
+            "title": 0.003615647897198787,
+            "description": 0.0013179440346795246,
+            "tags": 0.004522791484305955,
+            "author": 0.004095968754746909,
+            "summary": 0.013443205127269292
+        }
+    },
+    {
+        "id": 2257,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "45bdf39d-cf6d-43d0-bc15-0a808d872601",
+        "explanation": {
+            "title": 0.004191733119488589,
+            "description": -0.0002530108420555066,
+            "tags": 0.0033845577094137047,
+            "author": 0.0037305520998118236,
+            "summary": 0.012378630399259183
+        }
+    },
+    {
+        "id": 2258,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "29a1785b-2db6-4646-bdd6-09279b48a25f",
+        "explanation": {
+            "title": 0.003700441072241073,
+            "description": 0.0021808118106834556,
+            "tags": 0.0033056085938349827,
+            "author": 0.00366489876264095,
+            "summary": 0.012836118147155934
+        }
+    },
+    {
+        "id": 2262,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "44ce392f-8baa-40fa-b3cd-fc4d80afbc09",
+        "explanation": {
+            "title": 0.011224352617252242,
+            "description": 0.003183024558432418,
+            "tags": 0.0016981120516063875,
+            "author": 0.0032698707580818,
+            "summary": 0.012633748578742138
+        }
+    },
+    {
+        "id": 2264,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "f359e457-7d8c-46ee-876a-abb5340e1168",
+        "explanation": {
+            "title": 0.008295175318307896,
+            "description": 0.007112633144620184,
+            "tags": 0.0025555268204527637,
+            "author": 0.00440485662632048,
+            "summary": 0.0032154058618914794
+        }
+    },
+    {
+        "id": 2272,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "e85da966-42fe-4cc4-b5ac-c97a675d32bc",
+        "explanation": {
+            "title": 0.009082646037180203,
+            "description": -0.0008877647728264271,
+            "tags": 0.006471535476439,
+            "author": 0.004588455684040843,
+            "summary": 0.011461764817319503
+        }
+    },
+    {
+        "id": 2283,
+        "query": "united states births and deaths per second",
+        "input_id": "3e23114a-2657-4880-8add-f3c24425f937",
+        "candidate_id": "89b6950e-1d6d-4dab-a98c-86754f39f38c",
+        "explanation": {
+            "title": 0.00673001018821609,
+            "description": 0.011113728264878317,
+            "tags": 0.005692048742149833,
+            "author": 0.004781874499670297,
+            "summary": 0.005441623190340278
+        }
+    },
+    {
+        "id": 2297,
+        "query": "us imports and exports",
+        "input_id": "3ef5594b-f9a8-4469-8e17-2ba3a6cfbbdf",
+        "candidate_id": "a87ee823-37bb-48f2-9fda-b391b6ad2736",
+        "explanation": {
+            "title": -0.0017135838002173553,
+            "description": 0.012736851707128141,
+            "tags": 0.0006102966524610259,
+            "author": -0.003126205307531632,
+            "summary": 0.023488843049093294
+        }
+    },
+    {
+        "id": 2298,
+        "query": "us imports and exports",
+        "input_id": "3ef5594b-f9a8-4469-8e17-2ba3a6cfbbdf",
+        "candidate_id": "a9940527-c26a-43c6-96aa-f6767f18abd5",
+        "explanation": {
+            "title": 0.005788133607726842,
+            "description": 0.002160954634244608,
+            "tags": 0.00957854087430908,
+            "author": 0.0009519309853060209,
+            "summary": 0.013243205101071048
+        }
+    },
+    {
+        "id": 2299,
+        "query": "us imports and exports",
+        "input_id": "3ef5594b-f9a8-4469-8e17-2ba3a6cfbbdf",
+        "candidate_id": "68066327-c107-4cf4-9749-ebea480098cd",
+        "explanation": {
+            "title": 0.00935467721329572,
+            "description": -9.872557052555131e-05,
+            "tags": 0.00017827640774518982,
+            "author": 0.0011279712410543763,
+            "summary": 0.013483672460727375
+        }
+    },
+    {
+        "id": 2310,
+        "query": "us imports and exports",
+        "input_id": "3ef5594b-f9a8-4469-8e17-2ba3a6cfbbdf",
+        "candidate_id": "f72a30b8-c47c-4f00-a7dd-f554c86e1680",
+        "explanation": {
+            "title": 0.008847275960687628,
+            "description": 0.01280542703503014,
+            "tags": 0.0008480849507877947,
+            "author": 0.012678376872545083,
+            "summary": 0.00037906557279149267
+        }
+    },
+    {
+        "id": 2331,
+        "query": "us imports and exports",
+        "input_id": "3ef5594b-f9a8-4469-8e17-2ba3a6cfbbdf",
+        "candidate_id": "351d964c-c38e-4404-a6de-60bab4691de7",
+        "explanation": {
+            "title": 0.0066832209611141224,
+            "description": 0.009121231586962722,
+            "tags": 8.449845854589799e-05,
+            "author": 0.006791269232959668,
+            "summary": 0.004084293812828904
+        }
+    },
+    {
+        "id": 2505,
+        "query": "salary difference regular associate nurses",
+        "input_id": "43decf46-c73a-427b-a355-8870fbda1abb",
+        "candidate_id": "9754a4a3-e4bd-44b7-aafc-adff14500d54",
+        "explanation": {
+            "title": 0.0071378317754446086,
+            "description": 0.004375164399932768,
+            "tags": -0.0024476660394844307,
+            "author": 0.0007867114433287858,
+            "summary": 0.006835066871232004
+        }
+    },
+    {
+        "id": 3468,
+        "query": "city population 300,000",
+        "input_id": "62acddae-6081-4f24-b3ad-b69877c0a8d9",
+        "candidate_id": "ab3f98ec-5fdd-43ba-9d0a-65fb95e11096",
+        "explanation": {
+            "title": -0.00408336911368351,
+            "description": 0.0012910791289901385,
+            "tags": -0.0003418428012686575,
+            "author": 0.00025649341679204185,
+            "summary": 0.0008222168085919856
+        }
+    },
+    {
+        "id": 3469,
+        "query": "city population 300,000",
+        "input_id": "62acddae-6081-4f24-b3ad-b69877c0a8d9",
+        "candidate_id": "71b0ced9-1b20-4842-801c-3aba767e0fcc",
+        "explanation": {
+            "title": 0.0008882678273458844,
+            "description": -0.004768607707947542,
+            "tags": 0.002858666805907406,
+            "author": 0.0007408965145392354,
+            "summary": 0.0020663478030749083
+        }
+    },
+    {
+        "id": 3470,
+        "query": "city population 300,000",
+        "input_id": "62acddae-6081-4f24-b3ad-b69877c0a8d9",
+        "candidate_id": "d1442cd0-12c0-4413-8339-877d4004a998",
+        "explanation": {
+            "title": -0.0006620740393475655,
+            "description": -0.003364920388648454,
+            "tags": 0.0022665751349994906,
+            "author": 0.0013745605793619164,
+            "summary": 0.00108854945968051
+        }
+    },
+    {
+        "id": 3500,
+        "query": "city population 300,000",
+        "input_id": "62acddae-6081-4f24-b3ad-b69877c0a8d9",
+        "candidate_id": "ac38f50b-5f98-4f14-9ae9-963e758ad308",
+        "explanation": {
+            "title": -0.0003434392333234171,
+            "description": -0.0023761750825930933,
+            "tags": 0.0016526329790977484,
+            "author": 0.0008337719358452178,
+            "summary": 0.0011891572593740185
+        }
+    },
+    {
+        "id": 3507,
+        "query": "city population 300,000",
+        "input_id": "62acddae-6081-4f24-b3ad-b69877c0a8d9",
+        "candidate_id": "dbfa8cab-5a9f-4c2d-a421-e26feac6aef7",
+        "explanation": {
+            "title": -0.001459595021460397,
+            "description": 0.0010366165475330091,
+            "tags": 0.00015269275298904206,
+            "author": -0.0033750311249950704,
+            "summary": 0.009055462178157142
+        }
+    },
+    {
+        "id": 4925,
+        "query": "percentage college graduates us",
+        "input_id": "9a16660f-6116-4e5b-b64a-ca0b90986f3a",
+        "candidate_id": "14287e0b-a302-4473-bd26-2f0bc4e77e1d",
+        "explanation": {
+            "title": -9.648705091525045e-05,
+            "description": -0.0008062033940987867,
+            "tags": 0.008868733911987864,
+            "author": -0.0010985792373511272,
+            "summary": 0.006800663841273646
+        }
+    },
+    {
+        "id": 4977,
+        "query": "percentage college graduates us",
+        "input_id": "9a16660f-6116-4e5b-b64a-ca0b90986f3a",
+        "candidate_id": "7a3d1279-326b-41d7-8182-46ca0019321d",
+        "explanation": {
+            "title": 0.014205078833094381,
+            "description": 3.994205508912885e-05,
+            "tags": 0.003046909503998288,
+            "author": -0.005001198693458664,
+            "summary": 0.009443791553771008
+        }
+    },
+    {
+        "id": 4991,
+        "query": "percentage of americans in architecture",
+        "input_id": "9b5681d7-4fb9-4137-8c61-9a26d9ae2015",
+        "candidate_id": "cfc8b325-90be-4037-a447-429a7bb475ab",
+        "explanation": {
+            "title": 0.0012129600252132888,
+            "description": 0.006501099916917039,
+            "tags": 0.0018111959371664849,
+            "author": -0.007399223234241137,
+            "summary": -0.0012736585902913267
+        }
+    },
+    {
+        "id": 5000,
+        "query": "percentage of americans in architecture",
+        "input_id": "9b5681d7-4fb9-4137-8c61-9a26d9ae2015",
+        "candidate_id": "f7f08b90-4d41-4e45-945c-97cf5351bc11",
+        "explanation": {
+            "title": 0.0005457154947234033,
+            "description": 0.00635129911197628,
+            "tags": 0.0012518941645661558,
+            "author": -0.00659596203510307,
+            "summary": -0.002226105034854736
+        }
+    },
+    {
+        "id": 5003,
+        "query": "percentage of americans in architecture",
+        "input_id": "9b5681d7-4fb9-4137-8c61-9a26d9ae2015",
+        "candidate_id": "8710e077-bedb-4846-b8ca-49aa8af2ff38",
+        "explanation": {
+            "title": -0.006245928513490623,
+            "description": 0.0050897538535784465,
+            "tags": 0.0008807117767439671,
+            "author": -0.005922254129700877,
+            "summary": 0.0007388472926989076
+        }
+    },
+    {
+        "id": 5325,
+        "query": "students start own business",
+        "input_id": "a78412b2-0c57-44b4-8deb-1d923a07f6b3",
+        "candidate_id": "db2ef4c5-430b-41f9-a1f8-8ec5c66cbd33",
+        "explanation": {
+            "title": 0.0060370524075105125,
+            "description": 0.0019474637800042521,
+            "tags": -0.0006735811047823698,
+            "author": -0.009388136450255324,
+            "summary": 0.020138703502604216
+        }
+    },
+    {
+        "id": 5336,
+        "query": "students start own business",
+        "input_id": "a78412b2-0c57-44b4-8deb-1d923a07f6b3",
+        "candidate_id": "d4663cfe-2008-40af-b5fd-c8a532b333f4",
+        "explanation": {
+            "title": 0.0054767592753734995,
+            "description": 0.001829888407737637,
+            "tags": -0.0002020765188835011,
+            "author": -0.009101558784754965,
+            "summary": 0.019682861050015682
+        }
+    },
+    {
+        "id": 5337,
+        "query": "students start own business",
+        "input_id": "a78412b2-0c57-44b4-8deb-1d923a07f6b3",
+        "candidate_id": "cd45c438-b083-45b1-adbb-ba7191d35efb",
+        "explanation": {
+            "title": 0.0037719273147517884,
+            "description": 0.0015400186318138137,
+            "tags": 0.0007989547319723206,
+            "author": -0.008405403208497336,
+            "summary": 0.018782266510185303
+        }
+    },
+    {
+        "id": 5338,
+        "query": "students start own business",
+        "input_id": "a78412b2-0c57-44b4-8deb-1d923a07f6b3",
+        "candidate_id": "280ac73c-9007-43ff-a5e3-306c759fb8d8",
+        "explanation": {
+            "title": 0.0020658703828096425,
+            "description": 0.0010577955468617506,
+            "tags": 0.00039720788787034333,
+            "author": -0.007266682993784357,
+            "summary": 0.017308166647548362
+        }
+    },
+    {
+        "id": 5394,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "9f4d4efa-b4e5-4af6-94a5-ec95cb254ef7",
+        "explanation": {
+            "title": 0.016820892889734873,
+            "description": 0.014737602413229689,
+            "tags": 0.00045719664259241677,
+            "author": 0.0025504226084467063,
+            "summary": -0.004842631915505463
+        }
+    },
+    {
+        "id": 5395,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "8bf7164e-287b-44a1-a1ae-2d9ef8c49fc8",
+        "explanation": {
+            "title": 0.016401457671970404,
+            "description": 0.014693538299123024,
+            "tags": 0.0003580058816346071,
+            "author": 0.0024189415071043108,
+            "summary": -0.004500185798027689
+        }
+    },
+    {
+        "id": 5396,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "672a2a63-867b-4e0f-9bad-7c60476d8b6a",
+        "explanation": {
+            "title": 0.015334399246478447,
+            "description": 0.014947473212476359,
+            "tags": 0.0005634013338066124,
+            "author": 0.0024393814785846346,
+            "summary": -0.003877445082348552
+        }
+    },
+    {
+        "id": 5397,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "753f9621-9abd-426a-9d3d-19d8a5876f00",
+        "explanation": {
+            "title": 0.014909274100892905,
+            "description": 0.015029813033348688,
+            "tags": 0.0007340006889189343,
+            "author": 0.0025310987381928496,
+            "summary": -0.0036343319740241853
+        }
+    },
+    {
+        "id": 5398,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "8ac6dd15-010a-4f0f-8339-a63d19dc9f74",
+        "explanation": {
+            "title": 0.01587060929060169,
+            "description": 0.014928959062720085,
+            "tags": 0.0007590473135005577,
+            "author": 0.002371977718242657,
+            "summary": -0.004355486556670174
+        }
+    },
+    {
+        "id": 5399,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "ab31711c-3209-487a-a3b4-7907f8a81c83",
+        "explanation": {
+            "title": 0.017718260160132088,
+            "description": 0.01461529084941432,
+            "tags": 0.00026190081230284545,
+            "author": 0.002459055498242879,
+            "summary": -0.0056163089088075435
+        }
+    },
+    {
+        "id": 5400,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "fc853959-c3b8-4f87-9f2b-d62725b2ad93",
+        "explanation": {
+            "title": 0.015510743240256336,
+            "description": 0.01498550819152647,
+            "tags": 0.000553859762537412,
+            "author": 0.0023960504897933554,
+            "summary": -0.0042584076343074595
+        }
+    },
+    {
+        "id": 5401,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "375547ae-48e6-4b07-8f5a-f7968addc0ca",
+        "explanation": {
+            "title": 0.014130235444836325,
+            "description": 0.015162869807010773,
+            "tags": 0.0007087023944529064,
+            "author": 0.001999856438744202,
+            "summary": -0.002588588893523508
+        }
+    },
+    {
+        "id": 5402,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "cbd20ca6-e2b2-4588-a9e0-beea959ad2fb",
+        "explanation": {
+            "title": 0.016123832962977397,
+            "description": 0.014795781925200216,
+            "tags": 0.0006182981951111249,
+            "author": 0.0022332310167594294,
+            "summary": -0.003633872402930949
+        }
+    },
+    {
+        "id": 5403,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "26a18572-6f6b-482a-9bd3-d5ce8efc305a",
+        "explanation": {
+            "title": 0.01748446977969914,
+            "description": 0.013547718141984674,
+            "tags": 0.001061324728995297,
+            "author": 0.0013470028742889328,
+            "summary": -0.0014808037154353249
+        }
+    },
+    {
+        "id": 5406,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "4a8e7693-6372-447e-8800-504edd740010",
+        "explanation": {
+            "title": 0.019353917449651786,
+            "description": 0.013009221184564171,
+            "tags": 0.0006279820145758258,
+            "author": 0.0016345630726310456,
+            "summary": -0.002664746388974848
+        }
+    },
+    {
+        "id": 5407,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "aadee419-1231-443a-b62b-b8209b78f3a1",
+        "explanation": {
+            "title": 0.018478259442325784,
+            "description": 0.013080673547394228,
+            "tags": 0.0008550539033123639,
+            "author": 0.001387554552182979,
+            "summary": -0.0018050639482233843
+        }
+    },
+    {
+        "id": 5408,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "aa926a98-d154-4edb-9162-949c8a8202d3",
+        "explanation": {
+            "title": 0.017403760341990898,
+            "description": 0.013587886843967764,
+            "tags": 0.0009230704251120131,
+            "author": 0.0014902358650156489,
+            "summary": -0.0016620716852121797
+        }
+    },
+    {
+        "id": 5410,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "1391ae5e-77de-45f5-92d8-bc46e886563a",
+        "explanation": {
+            "title": 0.01866996624122058,
+            "description": 0.013143919283559277,
+            "tags": 0.0008239781436742005,
+            "author": 0.0016089802817739751,
+            "summary": -0.0020093761256756437
+        }
+    },
+    {
+        "id": 5411,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "604a3f21-a9e7-4a4f-a56c-30cccaeda92c",
+        "explanation": {
+            "title": 0.017195902901819438,
+            "description": 0.013565455397750031,
+            "tags": 0.0008572642214274839,
+            "author": 0.0014630992861766612,
+            "summary": -0.0018627510625940369
+        }
+    },
+    {
+        "id": 5412,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "220b746d-bb39-4b44-88d8-033219f8f513",
+        "explanation": {
+            "title": 0.017675082361705202,
+            "description": 0.013517922616106279,
+            "tags": 0.0009663795295655059,
+            "author": 0.0015942083537769103,
+            "summary": -0.001991978077145823
+        }
+    },
+    {
+        "id": 5413,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "383059b9-2c36-45d0-8f4a-699cf0694b1d",
+        "explanation": {
+            "title": 0.006009942492337161,
+            "description": 0.011674790862326062,
+            "tags": 0.007381674668310051,
+            "author": 0.00475857417411793,
+            "summary": 0.018735838097918428
+        }
+    },
+    {
+        "id": 5416,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "7c1714c0-43d8-4c77-8c20-c429e7903ee1",
+        "explanation": {
+            "title": 0.013965905952496138,
+            "description": 0.008820920026313725,
+            "tags": 0.008031179929085988,
+            "author": 0.002349786999740422,
+            "summary": -0.0036108063109178135
+        }
+    },
+    {
+        "id": 5426,
+        "query": "risk traffic death cyclists vs riders",
+        "input_id": "ab1504b6-7b3e-470e-a31e-8ca809cc5c30",
+        "candidate_id": "d69df5fb-bfa4-4fae-b7ff-f6a0e2aea1ab",
+        "explanation": {
+            "title": 0.017435580169113396,
+            "description": 0.012960079904094077,
+            "tags": 0.0010845658957106125,
+            "author": 0.0017351216046996853,
+            "summary": -0.002103522546776704
+        }
+    },
+    {
+        "id": 5607,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "0ca4c732-7367-4a8a-948b-e510869a4257",
+        "explanation": {
+            "title": 0.011747361234341863,
+            "description": 0.011990687033487116,
+            "tags": 0.0015834430204909739,
+            "author": 0.006269918460608731,
+            "summary": -0.0010489613217126992
+        }
+    },
+    {
+        "id": 5610,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "2778c0d4-394c-4de4-b390-54da4d0f2791",
+        "explanation": {
+            "title": 0.011636180296919096,
+            "description": 0.012463042066092417,
+            "tags": 0.0011283575397070533,
+            "author": 0.005566457476286285,
+            "summary": -0.0006078226435390632
+        }
+    },
+    {
+        "id": 5615,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "e1af11c8-0516-43b9-b33f-3632b585d6b0",
+        "explanation": {
+            "title": 0.011176657197122852,
+            "description": 0.01264638349789833,
+            "tags": 0.0014550362516311116,
+            "author": 0.005071127381700735,
+            "summary": -0.0007344150164480534
+        }
+    },
+    {
+        "id": 5620,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "94466cc6-7c1d-4997-823c-dad13ae87595",
+        "explanation": {
+            "title": 0.009648498602652766,
+            "description": 0.0154829292447662,
+            "tags": 0.002660483759057683,
+            "author": 0.004364256207398248,
+            "summary": -0.002423858108815319
+        }
+    },
+    {
+        "id": 5626,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "d2da3723-9e8b-4596-b5b2-32980916c488",
+        "explanation": {
+            "title": 0.01003266962000779,
+            "description": 0.01476555424812176,
+            "tags": 0.0023644202462804464,
+            "author": 0.005038162211894653,
+            "summary": -0.001518627550680024
+        }
+    },
+    {
+        "id": 5627,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "4e8b01d0-bd0e-4c97-91e3-9f13401a7506",
+        "explanation": {
+            "title": 0.009629108612189907,
+            "description": 0.015726910849676826,
+            "tags": 0.0035299073224036442,
+            "author": 0.004915001889157777,
+            "summary": -0.0040179907632818535
+        }
+    },
+    {
+        "id": 5629,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "df5ce942-0d2b-4448-9423-def1418abc02",
+        "explanation": {
+            "title": 0.01043675527243787,
+            "description": 0.012676780095123283,
+            "tags": 0.0018072148777320135,
+            "author": 0.005319590326008067,
+            "summary": -0.0007606472470629566
+        }
+    },
+    {
+        "id": 5630,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "175f1cb0-c0d1-4cb2-87cb-672a6c4a12d8",
+        "explanation": {
+            "title": 0.01021050228338452,
+            "description": 0.012958208209236655,
+            "tags": 0.002150245013405966,
+            "author": 0.004879347915713733,
+            "summary": -3.6921864590450104e-05
+        }
+    },
+    {
+        "id": 5631,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "9a06357f-7325-4faf-9f5b-4591a06c60a3",
+        "explanation": {
+            "title": 0.01115661140089469,
+            "description": 0.012046452383735917,
+            "tags": 0.0017731239080287509,
+            "author": 0.005588667431540212,
+            "summary": -0.0017589803636889056
+        }
+    },
+    {
+        "id": 5632,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "02652596-2024-41bc-af24-2a2cc858e958",
+        "explanation": {
+            "title": 0.008760078532303178,
+            "description": 0.01581887667817415,
+            "tags": 0.0030447640773735157,
+            "author": 0.004673862109230487,
+            "summary": -0.0034555935990909226
+        }
+    },
+    {
+        "id": 5637,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "92ce9741-8d48-4dff-82b9-fa94686c1926",
+        "explanation": {
+            "title": 0.013325470367941128,
+            "description": 0.01597348288736064,
+            "tags": 0.008110699663431725,
+            "author": 0.0030253850170067487,
+            "summary": -0.003297369528098809
+        }
+    },
+    {
+        "id": 5643,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "dcf289a0-d1ab-401e-b877-1c464b6e5598",
+        "explanation": {
+            "title": 0.006747651100490137,
+            "description": 0.008201681783281026,
+            "tags": 0.002444909473883747,
+            "author": 0.0015905038625648182,
+            "summary": 0.017404866411053987
+        }
+    },
+    {
+        "id": 5649,
+        "query": "rivers flooding united states",
+        "input_id": "b2573425-7546-4e49-9bbb-74b5fc175746",
+        "candidate_id": "9835e632-2eb0-4ac6-9c8f-50d23e369cf7",
+        "explanation": {
+            "title": 0.003015526070334007,
+            "description": 0.01698528188236889,
+            "tags": 0.006824227353693452,
+            "author": 0.0024281427064824224,
+            "summary": 0.006074553923104381
+        }
+    },
+    {
+        "id": 5738,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "a6ad0697-4856-47c9-b5c6-dbc64f5f5114",
+        "explanation": {
+            "title": 0.005399248031792564,
+            "description": 0.0028398977956712312,
+            "tags": 0.002497399113347759,
+            "author": -0.0003873049865262823,
+            "summary": 0.021051583633308724
+        }
+    },
+    {
+        "id": 5739,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "3dd76b9a-ff0b-4f38-8651-50654597d78c",
+        "explanation": {
+            "title": 0.005705004660916141,
+            "description": 0.002229113634089966,
+            "tags": 0.0029254009501411132,
+            "author": 0.0002533279506851671,
+            "summary": 0.021114462697293557
+        }
+    },
+    {
+        "id": 5740,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "f0656eed-aa27-48d1-8e10-282322d5301e",
+        "explanation": {
+            "title": 0.005295252334611755,
+            "description": 0.0015827804865805595,
+            "tags": 0.0022370895097394983,
+            "author": 0.0006008861219940209,
+            "summary": 0.02117038220219361
+        }
+    },
+    {
+        "id": 5741,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "a613f9ac-a556-4061-9bb5-63f127a0d919",
+        "explanation": {
+            "title": 0.0053391086037648805,
+            "description": 0.0023339378502094388,
+            "tags": 0.002996775094976978,
+            "author": -0.00024071236897912907,
+            "summary": 0.021162693546442873
+        }
+    },
+    {
+        "id": 5742,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "c818078a-beef-48af-988a-a437d208e25a",
+        "explanation": {
+            "title": 0.005058229636639433,
+            "description": 0.00269901643534122,
+            "tags": 0.0023481220944393394,
+            "author": -0.0001794903428715966,
+            "summary": 0.02149323946221124
+        }
+    },
+    {
+        "id": 5744,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "3e1588dc-fb2f-41dc-83e7-896332984985",
+        "explanation": {
+            "title": 0.0059095273226545675,
+            "description": 0.0018090434852694043,
+            "tags": 0.0018523474084634756,
+            "author": 0.0003838804415798591,
+            "summary": 0.01948011519197071
+        }
+    },
+    {
+        "id": 5745,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "cf7d2f78-1fb0-4185-8b6e-9f91b126a79a",
+        "explanation": {
+            "title": 0.005724226300293123,
+            "description": 0.0021411912043192427,
+            "tags": 0.002848680096421058,
+            "author": 0.0003444650339378963,
+            "summary": 0.021280542080278048
+        }
+    },
+    {
+        "id": 5747,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "3fab4983-b2e8-4ddb-8413-1bdbcc55bc50",
+        "explanation": {
+            "title": 0.006710185931138646,
+            "description": 0.002191498874274736,
+            "tags": 0.00224925216775905,
+            "author": -0.0002428112836237173,
+            "summary": 0.015333963390686572
+        }
+    },
+    {
+        "id": 5750,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "5bf15fcb-8f81-4e25-9ae9-b84dd1d2a2c2",
+        "explanation": {
+            "title": 0.005746298044819048,
+            "description": 0.00221938129829051,
+            "tags": 0.0029233572700923943,
+            "author": 0.0002492405905877293,
+            "summary": 0.021273560427354954
+        }
+    },
+    {
+        "id": 5751,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "aaaa9630-dc86-4712-82b8-f0ffb6ed7b0a",
+        "explanation": {
+            "title": 0.005207142107214874,
+            "description": 0.0026439696370565424,
+            "tags": 0.002432332759364858,
+            "author": -0.00035734574170429023,
+            "summary": 0.02116664834351009
+        }
+    },
+    {
+        "id": 5767,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "92d56ad3-4349-4e49-8f68-eae91944b4be",
+        "explanation": {
+            "title": -0.00015942913763680733,
+            "description": -0.0004334148271925714,
+            "tags": 0.005466523769611806,
+            "author": 5.7068384495012614e-05,
+            "summary": 0.01594943144600111
+        }
+    },
+    {
+        "id": 5784,
+        "query": "salary difference regular associate nurses",
+        "input_id": "b633e22f-ec44-4879-aa90-3994e4ed6d6e",
+        "candidate_id": "9754a4a3-e4bd-44b7-aafc-adff14500d54",
+        "explanation": {
+            "title": 0.00726878444650339,
+            "description": 0.004455432397626885,
+            "tags": -0.0024925716096651507,
+            "author": 0.0008011446729281058,
+            "summary": 0.006960464932129512
+        }
+    },
+    {
+        "id": 5796,
+        "query": "number stock companies us",
+        "input_id": "bc0ed6ff-3f62-425f-85f1-ef24efae3e57",
+        "candidate_id": "abcd54f7-0533-45fd-83e0-f4b0ecf22208",
+        "explanation": {
+            "title": 0.00377171549162561,
+            "description": -0.0019103693525812787,
+            "tags": 0.0002436654242901487,
+            "author": -0.0012378681412940074,
+            "summary": 0.007985621222673933
+        }
+    },
+    {
+        "id": 6529,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "3fd8159c-1043-4ac5-b030-547c998c3bcc",
+        "explanation": {
+            "title": 0.012141363205154104,
+            "description": -0.002052533126939607,
+            "tags": 0.0045504531959356526,
+            "author": 0.003129410111190334,
+            "summary": 0.011438553778734373
+        }
+    },
+    {
+        "id": 6533,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "2c7f847e-d06a-4c93-ba4c-55f0fa91cad2",
+        "explanation": {
+            "title": 0.0089612066090341,
+            "description": -0.003066494048793611,
+            "tags": 0.0033430199396458637,
+            "author": 0.003601302349429486,
+            "summary": 0.010915196636859997
+        }
+    },
+    {
+        "id": 6535,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "44ce392f-8baa-40fa-b3cd-fc4d80afbc09",
+        "explanation": {
+            "title": 0.004973852171548998,
+            "description": 0.004790916644794807,
+            "tags": 0.0007475255482753962,
+            "author": 0.0030415017859453664,
+            "summary": 0.010768639220924137
+        }
+    },
+    {
+        "id": 6536,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "c44cc582-d650-4b9f-83d2-95f303ebe9f5",
+        "explanation": {
+            "title": 0.013537620844557396,
+            "description": -0.005785306099487991,
+            "tags": 0.004618419959535186,
+            "author": 0.002990232814684385,
+            "summary": 0.01211580491544692
+        }
+    },
+    {
+        "id": 6537,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "45bdf39d-cf6d-43d0-bc15-0a808d872601",
+        "explanation": {
+            "title": 0.005338787103713688,
+            "description": 0.0020339739770457582,
+            "tags": 0.003458598270187088,
+            "author": 0.0042185328688314205,
+            "summary": 0.007763689707907501
+        }
+    },
+    {
+        "id": 6538,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "59195903-e028-4280-8177-fc792d6e719a",
+        "explanation": {
+            "title": 0.004542670326625364,
+            "description": 0.0038146727049831602,
+            "tags": 0.004110095184818238,
+            "author": 0.003992405138687927,
+            "summary": 0.00896660563445778
+        }
+    },
+    {
+        "id": 6539,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "e85da966-42fe-4cc4-b5ac-c97a675d32bc",
+        "explanation": {
+            "title": 0.0018463578435735095,
+            "description": 0.00116625480230248,
+            "tags": 0.0020299900187694675,
+            "author": 0.004685700959824818,
+            "summary": 0.00850281193435412
+        }
+    },
+    {
+        "id": 6541,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "f359e457-7d8c-46ee-876a-abb5340e1168",
+        "explanation": {
+            "title": 0.006111174293254529,
+            "description": 0.008825262196703224,
+            "tags": 0.0020868212924326363,
+            "author": 0.005186438797605719,
+            "summary": -0.00037055166022642583
+        }
+    },
+    {
+        "id": 6542,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "ccdb114c-becc-4e2a-b6dc-5e52fa1d55e3",
+        "explanation": {
+            "title": 0.0086396162721053,
+            "description": -0.0039736609415517155,
+            "tags": 0.007967067512374693,
+            "author": 0.0032250251098222826,
+            "summary": 0.01594047017151659
+        }
+    },
+    {
+        "id": 6543,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "29a1785b-2db6-4646-bdd6-09279b48a25f",
+        "explanation": {
+            "title": 0.004683393311861489,
+            "description": 0.0034253224219610162,
+            "tags": 0.003529406053213155,
+            "author": 0.0039840453573867785,
+            "summary": 0.0079385702370538
+        }
+    },
+    {
+        "id": 6549,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "2d101a72-3b4d-4bb6-95dc-0e5bc7d9ebb5",
+        "explanation": {
+            "title": 0.004372840498681835,
+            "description": 0.004886934393307174,
+            "tags": 0.004280458384224944,
+            "author": 0.004267124097644348,
+            "summary": 0.007254483237506437
+        }
+    },
+    {
+        "id": 6550,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "8a7efb20-a580-4777-930d-6ead7fac2849",
+        "explanation": {
+            "title": 0.004125464991064587,
+            "description": 0.0039485489422525916,
+            "tags": 0.004549473534064444,
+            "author": 0.004755518195847741,
+            "summary": 0.007671688573067215
+        }
+    },
+    {
+        "id": 6551,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "3548b49b-0173-4724-868d-722fe61d39c6",
+        "explanation": {
+            "title": 0.007017034970184299,
+            "description": 0.0065242106232965835,
+            "tags": 0.002350045552099972,
+            "author": 0.0042187723417332346,
+            "summary": 0.0021457642816849476
+        }
+    },
+    {
+        "id": 6553,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "89b6950e-1d6d-4dab-a98c-86754f39f38c",
+        "explanation": {
+            "title": 0.0027466888734968553,
+            "description": 0.014948823770062819,
+            "tags": 0.009768763659752044,
+            "author": 0.005999558150725837,
+            "summary": -0.004552053310325377
+        }
+    },
+    {
+        "id": 6555,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "51c35e63-66e4-4d82-8b94-b6122b9c83e1",
+        "explanation": {
+            "title": 0.003481174033752976,
+            "description": 0.002369203384248439,
+            "tags": 0.002946202456138594,
+            "author": 0.0036496541053405995,
+            "summary": 0.01220980891455728
+        }
+    },
+    {
+        "id": 6556,
+        "query": "common cause death",
+        "input_id": "cff74d25-b955-4a16-810c-9c909c9e3f9f",
+        "candidate_id": "0cbb09dc-4012-4f18-900e-6d746bfc10d3",
+        "explanation": {
+            "title": 0.00032659749760396983,
+            "description": 0.007263496126721725,
+            "tags": 0.008881505673243667,
+            "author": 0.005593259717331434,
+            "summary": -0.000137152661972062
+        }
+    }
+]
