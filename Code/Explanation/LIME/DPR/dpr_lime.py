@@ -12,13 +12,11 @@ from lime.lime_text import LimeTextExplainer
 from utils import get_query_dataset_by_id, dataset_info_from_fields, get_rel_info_by_id
 from utils import get_pair_info, get_pair_id_by_id
 
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
 def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
     results = {}
     if model_type == 'ColBERTv2':
-        print(ckpt_path)
         RAG = RAGPretrainedModel.from_pretrained(ckpt_path)
         RAG.index(
             collection=list(document_dict.values()),
@@ -132,11 +130,7 @@ def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
 
 
 def permutations(candidate_dataset_info, new_texts):
-    # start_id = len(new_texts)
-    # end_id = start_id + 50
-    # 1 1 1 1 1: title description tags author schema
     features = ['title', 'description', 'tags', 'author', 'summary']
-    new_features = []
     for i in range(32):
         new_features = []
 
@@ -157,7 +151,6 @@ def permutations(candidate_dataset_info, new_texts):
 
 def dense_lime_explainer(queries, documents, rel_id, searched_results, retrieved_results, annotation_file, dataset_info_path, queries_path, _id, mode):
     query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id)
-    # print(query, input_id, candidate_id)
     dense_pooling = list(retrieved_results.keys())
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
     assert pair_info == queries[rel_id]
@@ -188,8 +181,6 @@ def dense_lime_explainer(queries, documents, rel_id, searched_results, retrieved
     test_text = "title description tags author summary"
 
     exp = explainer.explain_instance(test_text, dense_predict, num_features=5, num_samples=50)
-    # print('BM25_Score =', bm25_predict([test_text]))
-    # print(exp.as_list())
     return exp
 
 
@@ -212,7 +203,6 @@ def dense_lime(model_type, model_path, output_file, mode, rel_mode, pooling_path
             ind = 2
         if rel_info[ind] != '0':
             dense_pooling = list(retrieved_results[str(pair_id)].keys())
-            # print(dense_pooling)
             if candidate_id not in dense_pooling:
                 continue
             queries.append(pair_info)

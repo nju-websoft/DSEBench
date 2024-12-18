@@ -49,7 +49,7 @@ def bm25_shap_explainer(_id, ori_bm25, pooling_path, annotation_file, dataset_in
     ori_query = tokenized_query(pair_info)
     doc_scores = ori_bm25.get_scores(ori_query)
     top_score = max(doc_scores)
-    tokenizer = AutoTokenizer.from_pretrained('../../../../model/bert')
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     # tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     def bm25_predict(texts): #input: a list of string   output: a list of probability [[0.6,0.4] [0.7,0.2]]
         labels = []

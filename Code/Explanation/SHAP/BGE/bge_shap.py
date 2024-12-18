@@ -9,7 +9,6 @@ import argparse
 from utils import get_query_dataset_by_id, dataset_info_from_fields, get_rel_info_by_id
 from utils import get_pair_info, cosine_similarity, get_pair_id_by_id
 import numpy as np
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 device = torch.device("cuda")
 
@@ -44,7 +43,6 @@ def bge_shap_explainer(tokenizer, model, pooling_path, annotation_file, dataset_
     if candidate_id not in bge_pooling.keys():
         return None
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
-    # print(pair_info)
     ori_query = pair_info
     q_embed = bge_encoder([ori_query.strip()], tokenizer, model)[0]
     top_score = bge_pooling[list(bge_pooling.keys())[0]]

@@ -37,8 +37,6 @@ def bge_encoder(sentences, tokenizer, model):
 
 def bge_lime_explainer(tokenizer, model, pooling_path, annotation_file, dataset_info_path, queries_path, _id, mode):
     query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id)
-    # print(query, input_id, candidate_id)
-    # print(bm25_pooling)
     pair_id = get_pair_id_by_id(annotation_file, _id)
     with open(pooling_path, 'r') as f:
         data = json.load(f)
@@ -74,7 +72,6 @@ def bge_lime_explainer(tokenizer, model, pooling_path, annotation_file, dataset_
 
 def bge_lime(model_path, output_file, rel_mode, pooling_path, annotation_file, dataset_info_path, queries_path):
     tokenizer, model = load_model(model_path)
-    candidate_ids = []
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     tol_num = len(data)

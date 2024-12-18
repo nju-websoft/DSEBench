@@ -38,7 +38,6 @@ def bm25_lime_explainer(_id, ori_bm25, pooling_path, annotation_file, dataset_in
     with open(pooling_path, 'r') as f:
         data = json.load(f)
     bm25_pooling = data[str(pair_id)]
-    # print(bm25_pooling)
     if candidate_id not in bm25_pooling.keys():
         return None
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
@@ -83,7 +82,6 @@ def bm25_lime(output_file, rel_mode, pooling_path, annotation_file, dataset_info
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     tol_num = len(data)
-    # print(tol_num)
     for _id in tqdm(range(1, tol_num+1)):
         rel_info = get_rel_info_by_id(annotation_file, _id-1)
         query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id-1)

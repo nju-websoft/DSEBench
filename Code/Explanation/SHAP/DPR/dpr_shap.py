@@ -30,7 +30,7 @@ def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
             search_result = RAG.search(query=query_text, k=k)
             results[query_id] = {x['document_id']: x['score'] for x in search_result}
     elif model_type == 'coCondenser' or model_type == 'DPR':
-        tokenizer = AutoTokenizer.from_pretrained('/data1/PTLM/bert-base-uncased/', use_fast=True)
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased', use_fast=True)
         query_dict_encoded = {k: tokenizer.encode(v, add_special_tokens=False, max_length=512, truncation=True) for k, v
                               in query_dict.items()}
         document_dict_encoded = {k: tokenizer.encode(v, add_special_tokens=False, max_length=512, truncation=True) for
@@ -151,13 +151,12 @@ def permutations(candidate_dataset_info, new_texts):
 
 def dense_shap_explainer(queries, documents, rel_id, searched_results, retrieved_results, annotation_file, dataset_info_path, queries_path, _id, mode):
     query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id)
-    # print(query, input_id, candidate_id)
     dense_pooling = list(retrieved_results.keys())
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
     assert pair_info == queries[rel_id]
     top_score = retrieved_results[dense_pooling[0]]
     doc_start_id = rel_id * 32
-    tokenizer = AutoTokenizer.from_pretrained('../../../../model/bert')
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     def dense_predict(texts):  # input: a list of string   output: a list of probability [[0.6,0.4] [0.7,0.2]]
         labels = [0] * len(texts)
         features = ['summary', 'author', 'tags', 'description', 'title']
@@ -205,7 +204,6 @@ def dense_shap(model_type, model_path, output_file, mode, rel_mode, pooling_path
             ind = 2
         if rel_info[ind] != '0':
             dense_pooling = list(retrieved_results[str(pair_id)].keys())
-            # print(dense_pooling)
             if candidate_id not in dense_pooling:
                 continue
             queries.append(pair_info)
@@ -230,7 +228,6 @@ def dense_shap(model_type, model_path, output_file, mode, rel_mode, pooling_path
             ind = 2
         if rel_info[ind] != '0':
             dense_pooling = list(retrieved_results[str(pair_id)].keys())
-            # print(dense_pooling)
             if candidate_id not in dense_pooling:
                 continue
             shap_result = dense_shap_explainer(queries, documents, rel_id, results[f'qry_{rel_id}'], retrieved_results[str(pair_id)], annotation_file, dataset_info_path, queries_path, _id-1, mode)
@@ -271,7 +268,6 @@ if __name__ == '__main__':
     annotation = args.annotation
     dataset_info = args.dataset_info
     queries = args.queries
-    print(mode, rel)
     dense_shap(model_type, model_path, outfile, mode, rel, pooling, annotation, dataset_info, queries)
 
 

@@ -35,7 +35,7 @@ def gte_shap_explainer(model_path, pooling_path, annotation_file, dataset_info_p
     ori_query = pair_info
     q_embed = gte_encoder([ori_query.strip()], model_path)[0]
     top_score = gte_pooling[list(gte_pooling.keys())[0]]
-    tokenizer = AutoTokenizer.from_pretrained('../../../../model/bert')
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     def gte_predict(texts): #input: a list of string   output: a list of probability [[0.6,0.4] [0.7,0.2]]
         labels = []
         new_texts = []

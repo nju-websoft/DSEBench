@@ -25,8 +25,6 @@ def gte_encoder(sentences, model_path):
 
 def gte_lime_explainer(model_path, pooling_path, annotation_file, dataset_info_path, queries_path, _id, mode):
     query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id)
-    # print(query, input_id, candidate_id)
-    # print(bm25_pooling)
     pair_id = get_pair_id_by_id(annotation_file, _id)
     with open(pooling_path, 'r') as f:
         data = json.load(f)
@@ -34,7 +32,6 @@ def gte_lime_explainer(model_path, pooling_path, annotation_file, dataset_info_p
     if candidate_id not in gte_pooling.keys():
         return None
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
-    # print(pair_info)
     ori_query = pair_info
     q_embed = gte_encoder([ori_query.strip()], model_path)[0]
     top_score = gte_pooling[list(gte_pooling.keys())[0]]

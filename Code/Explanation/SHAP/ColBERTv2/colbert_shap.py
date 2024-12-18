@@ -18,7 +18,6 @@ from utils import get_pair_info, tokenized_query, get_pooling_result, cosine_sim
 def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
     results = {}
     if model_type == 'ColBERTv2':
-        print(ckpt_path)
         RAG = RAGPretrainedModel.from_pretrained(ckpt_path)
         RAG.index(
             collection=list(document_dict.values()),
@@ -73,7 +72,6 @@ def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
             "--encoded_save_path", os.path.join(encoding_path, 'corpus', 'split00.json')
         ]
         result = subprocess.run(command, capture_output=True, text=True)
-        # print(result)
         # encode query
         command = [
             "python", "-m", "tevatron.driver.encode",
@@ -153,7 +151,6 @@ def permutations(candidate_dataset_info, new_texts):
 
 def dense_shap_explainer(queries, documents, rel_id, searched_results, retrieved_results, annotation_file, dataset_info_path, queries_path, _id, mode):
     query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id)
-    # print(query, input_id, candidate_id)
     dense_pooling = list(retrieved_results.keys())
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
 
@@ -210,7 +207,6 @@ def dense_shap(model_type, model_path, output_file, mode, rel_mode, pooling_path
             ind = 2
         if rel_info[ind] != '0':
             dense_pooling = list(retrieved_results[str(pair_id)].keys())
-            # print(dense_pooling)
             if candidate_id not in dense_pooling:
                 continue
             queries.append(pair_info)
@@ -260,5 +256,4 @@ if __name__ == '__main__':
     annotation = args.annotation
     dataset_info = args.dataset_info
     queries = args.queries
-    print(mode, rel)
     dense_shap(model_type, model_path, outfile, mode, rel, pooling, annotation, dataset_info, queries)

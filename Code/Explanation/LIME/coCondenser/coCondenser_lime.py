@@ -132,9 +132,6 @@ def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
 
 
 def permutations(candidate_dataset_info, new_texts):
-    # start_id = len(new_texts)
-    # end_id = start_id + 50
-    # 1 1 1 1 1: title description tags author schema
     features = ['title', 'description', 'tags', 'author', 'summary']
     for i in range(32):
         new_features = []
@@ -187,8 +184,6 @@ def dense_lime_explainer(queries, documents, rel_id, searched_results, retrieved
     test_text = "title description tags author summary"
 
     exp = explainer.explain_instance(test_text, dense_predict, num_features=5, num_samples=50)
-    # print('BM25_Score =', bm25_predict([test_text]))
-    # print(exp.as_list())
     return exp
 
 
@@ -199,7 +194,6 @@ def dense_lime(model_type, model_path, output_file, mode, rel_mode, pooling_path
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     tol_num = len(data)
-    tol_num = 200
     for _id in tqdm(range(1, tol_num + 1)):
         rel_info = get_rel_info_by_id(annotation_file, _id-1)
         query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id-1)

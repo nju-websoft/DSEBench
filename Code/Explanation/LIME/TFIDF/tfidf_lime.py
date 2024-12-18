@@ -30,7 +30,6 @@ def get_top_scores(annotation_file, queries_path, dataset_info_path, all_tfidf, 
         top_score = re2[0][1]
         for _id in ids:
             top_scores[_id] = top_score
-        print(top_scores)
     return top_scores
 
 
@@ -59,16 +58,14 @@ def tfidf_lime_explainer(_id, model, top_scores, pooling_path, annotation_file, 
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
     q_vector = model.transform([pair_info]).toarray()[0]
     top_score = top_scores[_id]
-    def tfidf_predict(texts): #input: a list of string   output: a list of probability [[0.6,0.4] [0.7,0.2]]
+    def tfidf_predict(texts):
         labels = []
 
         for text in texts:
-            print(text)
             if len(text.strip()) == 0:
                 labels.append([0.0, 1.0])
                 continue
             new_dataset_info = dataset_info_from_fields(text, candidate_dataset_info)
-            print(new_dataset_info)
 
             d_vector = model.transform([new_dataset_info]).toarray()[0]
             score = cosine_similarity(q_vector, d_vector)
@@ -96,7 +93,6 @@ def tfidf_lime(output_file, rel_mode, pooling_path, annotation_file, dataset_inf
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     tol_num = len(data)
-    # print(tol_num)
     for _id in tqdm(range(1, tol_num+1)):
         rel_info = get_rel_info_by_id(annotation_file, _id-1)
         query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id-1)

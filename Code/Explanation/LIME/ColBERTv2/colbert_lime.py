@@ -17,7 +17,6 @@ from utils import get_query_dataset_by_id, dataset_info_from_fields, get_rel_inf
 def get_scores(model_type, ckpt_path, query_dict, document_dict, k):
     results = {}
     if model_type == 'ColBERTv2':
-        print(ckpt_path)
         RAG = RAGPretrainedModel.from_pretrained(ckpt_path)
         RAG.index(
             collection=list(document_dict.values()),
@@ -138,7 +137,6 @@ def dense_lime_explainer(model_type, model_path, retrieved_results, annotation_f
     if candidate_id not in dense_pooling:
         return None
     pair_info, input_dataset_info, candidate_dataset_info = get_pair_info(dataset_info_path, query, input_id, candidate_id, mode)
-    print(pair_info)
     queries = [pair_info]
     query_dict = {f'qry_{i}': q for i, q in enumerate(queries)}
     # print(query_dict)
@@ -148,8 +146,6 @@ def dense_lime_explainer(model_type, model_path, retrieved_results, annotation_f
         new_texts = []
         for i, text in enumerate(texts):
             new_dataset_info = dataset_info_from_fields(text, candidate_dataset_info)
-            print(text)
-            print(new_dataset_info)
             new_texts.append(new_dataset_info)
         # print(len(new_texts))
         document_dict = {f'doc_{i}': d for i, d in enumerate(new_texts)}
@@ -161,8 +157,6 @@ def dense_lime_explainer(model_type, model_path, retrieved_results, annotation_f
         for k, v in results['qry_0'].items():
             score = v
             p_rel = min(1 - (top_score - score)/top_score, 1)
-            # print(score, top_score)
-            # print(p_rel, 1-p_rel)
             labels[eval(k.strip('doc_'))] = [p_rel, 1-p_rel]
 
         return np.array(labels)
@@ -184,7 +178,6 @@ def dense_lime(model_type, model_path, output_file, mode, rel_mode, pooling_path
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     tol_num = len(data)
-    tol_num = 200
     for _id in tqdm(range(1, tol_num + 1)):
         rel_info = get_rel_info_by_id(annotation_file, _id - 1)
         query, input_id, candidate_id = get_query_dataset_by_id(annotation_file, queries_path, _id - 1)
@@ -198,7 +191,6 @@ def dense_lime(model_type, model_path, output_file, mode, rel_mode, pooling_path
             lime_result = dense_lime_explainer(model_type, model_path, retrieved_results[str(pair_id)], annotation_file, dataset_info_path, queries_path, _id - 1, mode)
             if lime_result is None:
                 continue
-            # lime_result.save_to_file(os.path.join(tmp_dir, f'{_id}.html'))
             lime_result = lime_result.as_list()
             explain = {}
             for feature in lime_result:

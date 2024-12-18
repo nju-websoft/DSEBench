@@ -100,7 +100,4 @@ def cosine_similarity(a, b):
     similarity = dot_product / (norm_a * norm_b)
     return similarity
 
-# if __name__ == '__main__':
-#     db = get_connection()
-#     print(get_rel_info_by_id(db, 'pairs_l2_v3',1))
 
