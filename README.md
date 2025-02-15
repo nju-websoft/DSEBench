@@ -1,6 +1,6 @@
-# FAERY
+# DSEBench
 
-FAERY is a test collection for fine-grained dataset discovery, which is the task of answering an input with a ranked list of candidate datasets, along with the fields of each candidate dataset that are relevant to the input. We implement experiments on dataset discovery and explanation experiments. For details about this test collection, please refer to the following paper.
+DSEBench is a test collection for Dataset Search with Examples (DSE), a task aimed at returning top-ranked candidate datasets based on both a textual query and a set of target datasets that clarify the user's search intent. Unlike traditional dataset retrieval tasks that only use a query, DSE incorporates example datasets to improve search relevance.  We implement experiments on DSE and field-level experiments. For details about this test collection, please refer to the following paper.
 
 
 ## Datasets
@@ -45,7 +45,7 @@ The "[./Data/human_annotated_qrels.json](./Data/human_annotated_qrels.json)" fil
 To ensure that evaluation results are comparable, one should use the train-validation-test splits that we provide. There are two ways for splitting the data into training, validation, and test sets. The "[./Data/Splits/5-Fold_split](./Data/Splits/5-Fold_split)" folder contains five sub-folders. Each sub-folder provides three qrel files for training, validation, and test sets, respectively. The "[./Data/Splits/Annotators_split](./Data/Splits/Annotators_split)" folder contains three qrel files for training, validation, and test sets, respectively.
 
 
-## Baselines for Discovery
+## Baselines for DSE
 
 We have evaluated two sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25 and five dense retrieval models: (3) BGE, (4) GTE, (5) Contextualized late interaction over BERT (ColBERTv2), (6) coCondenser and (7) Dense Passage Retrieval (DPR). For reranking, we have evaluated three models: (1) Stella, (2) SFR-Embedding-Mistral, (3) GLM-4-Long, and (4) GLM-4-Air.
 
@@ -53,7 +53,7 @@ The details of the experiments are given in the corresponding section of our pap
 
 The "[./Baselines](./Baselines)" folder provides the results of each baseline method, where each JSON object is formatted as: `{qdpair_id: {dataset_id: score, ...}, ...}`.
 
-## Baselines for Explanation
+## Baselines for Field Relevance
 
 We employed post-hoc explanation methods to identify which fields of the candidate dataset are relevant to the query or target dataset.
 We have evaluated four different explainers, (1) feature ablation explainer, (2) LIME, (3) SHAP, (4) LLM, using F1-score, and the first three methods need to be combined with the retrieval models. 
@@ -80,6 +80,7 @@ All source codes of our implementation are provided in [./Code](./Code).
 - shap
 - lime
 - zhipuai
+- FlagEmbedding
 
 ### Sparse Retrieval Models
 

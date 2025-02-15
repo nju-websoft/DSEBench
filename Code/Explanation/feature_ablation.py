@@ -484,4 +484,32 @@ if __name__ == "__main__":
     #         save_path=f'explain/colbert_explain_ablation_fold_{fold}.json'
     #     )
 
+
+    # # without ft
+    # ckpt_path = 'Luyu/co-condenser-marco-retriever'
+    # run_results_filename = '../dense/coCondenser/results/fold_100_coCondenser_without_ft.json'
+    # tevatron_explain(
+    #     ckpt_path=ckpt_path,
+    #     run_results_filename=run_results_filename,
+    #     save_path=f'output/coCondenser_explain_ablation_fold_200.json',
+    #     temp_data_path='.temp_ccds',
+    # )
+
+    # ckpt_path = '../dense/tevatron/tevatron/examples/dpr/model_nq'
+    # run_results_filename = '../dense/coCondenser/results/fold_100_dpr_without_ft.json'
+    # tevatron_explain(
+    #     ckpt_path=ckpt_path,
+    #     run_results_filename=run_results_filename,
+    #     save_path=f'output/dpr_explain_ablation_fold_200.json',
+    #     temp_data_path='.temp_dpr',
+    # )
+
+    # ckpt_path = 'colbert-ir/colbertv2.0'
+    # run_results_filename = '../dense/coCondenser/results/fold_100_ColBERTv2_without_ft.json'
+    # ColBERTv2_explain(
+    #     ckpt_path=ckpt_path,
+    #     run_results_filename=run_results_filename,
+    #     save_path=f'output/colbert_explain_ablation_fold_200.json',
+    # )
+    
     pass

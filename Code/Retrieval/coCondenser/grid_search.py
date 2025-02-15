@@ -20,7 +20,7 @@ parser.add_argument('--fold_start', type=int, default=0)
 parser.add_argument('--fold_end', type=int, default=5)
 parser.add_argument('--batch_size', type=int, default=16)
 parser.add_argument('--learning_rate', type=float, default=5e-6)
-parser.add_argument('--mode', choices=['grid_search', 'train'])
+parser.add_argument('--mode', choices=['grid_search', 'train', 'without_ft'])
 args = parser.parse_args()
 
 
@@ -124,6 +124,50 @@ def train(learning_rate, batch_size, fold_start=0, fold_end=5):
     print()
 
 
+def search_without_fine_tuning():
+    data_save_to = './bert'
+    qrels_dir = 'fold_100'
+    encoding_save_to = './encoding'
+    if 'dpr' in args.pipeline:
+        model_name = '../tevatron/tevatron/examples/dpr/model_nq'
+        save_file_name = qrels_dir + '_dpr_without_ft.json'
+    else:
+        model_name = 'Luyu/co-condenser-marco-retriever'
+        save_file_name = qrels_dir + '_coCondenser_without_ft.json'
+
+    top_k = 20
+
+    result = subprocess.run(['bash', 'encode_and_index_search_without_ft.sh', data_save_to, qrels_dir, encoding_save_to, model_name, str(top_k)], capture_output=True, text=True)
+
+    with open(os.path.join(qrels_dir, 'test.json'), 'r') as f:
+        qrels = json.load(f)
+    run_dict = {}
+
+    metrics = ['map_cut_5', 'ndcg_cut_5', 'P_5', 'recall_5', 'map_cut_10', 'ndcg_cut_10', 'P_10', 'recall_10']
+    eval_results = {}
+
+    with open('test.rank.tsv', 'r') as f:
+        for line in f:
+            if line:
+                query_id, dataset_id, score = line.strip().split()
+                if query_id not in run_dict:
+                    run_dict[query_id] = {}
+                run_dict[query_id][dataset_id] = float(score)
+    with open(os.path.join('results', save_file_name), 'w') as f:
+        json.dump(run_dict, f)
+
+    evaluator = pytrec_eval.RelevanceEvaluator(qrels, metrics)
+    eval_result = evaluator.evaluate(run_dict)
+    eval_results.update(eval_result)
+
+    results = {}
+    for metric in metrics:
+        results[metric] = sum([x[metric] for x in eval_results.values()]) / len(eval_results)
+    for metric in metrics:
+        print(f'{metric}: {results[metric]:.4f}', end='\t')
+    print()
+
+
 if __name__ == "__main__":
     fold_start, fold_end = args.fold_start, args.fold_end
 
@@ -134,5 +178,6 @@ if __name__ == "__main__":
         learning_rate, batch_size = args.learning_rate, args.batch_size
         print(f'train {fold_start}-{fold_end}: {learning_rate}, {batch_size}')
         train(learning_rate, batch_size, fold_start, fold_end)
-
+    elif args.mode == 'without_ft':
+        search_without_fine_tuning()
     

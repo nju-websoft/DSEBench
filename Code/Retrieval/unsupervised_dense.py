@@ -83,5 +83,5 @@ def unsupervised_dense_search(model_name, save_path, top_k=20):
 
 if __name__ == "__main__":
     unsupervised_dense_search(model_name='BAAI/bge-large-en-v1.5', save_path='bge_results.json', top_k=20)
-    # unsupervised_dense_search(model_name='thenlper/gte-large', save_path='gte_results.json', top_k=20)
+    unsupervised_dense_search(model_name='thenlper/gte-large', save_path='gte_results.json', top_k=20)
     # unsupervised_dense_search(model_name='dunzhang/stella_en_1.5B_v5', save_path='rerank_stella_100.json', top_k=100)

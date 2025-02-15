@@ -21,7 +21,7 @@ parser.add_argument('--fold_start', type=int, default=0)
 parser.add_argument('--fold_end', type=int, default=5)
 parser.add_argument('--batch_size', type=int, default=16)
 parser.add_argument('--learning_rate', type=float, default=5e-6)
-parser.add_argument('--mode', choices=['grid_search', 'train'])
+parser.add_argument('--mode', choices=['grid_search', 'train', 'without_ft'])
 
 
 args = parser.parse_args()
@@ -210,8 +210,64 @@ def train_with_best_params():
     print()
 
 
+def search_without_ft():
+    fold = 100
+
+    query_info_dict = {}
+    with open('fold_100/query_info_all.json', 'r') as f:
+        data = json.load(f)
+        for item in data:
+            query_info_dict[item['id']] = item['content']
+    
+    dataset_info_dict = {}
+    with open('dataset_corpus_info.json', 'r') as f:
+        data = json.load(f)
+        for item in data:
+            dataset_info_dict[item['id']] = item['content']
+    
+    full_corpus, document_ids = [], []
+    for dataset_id, info in dataset_info_dict.items():
+        full_corpus.append(info)
+        document_ids.append(dataset_id)
+
+    RAG = RAGPretrainedModel.from_pretrained('colbert-ir/colbertv2.0')
+    RAG.index(
+        collection=full_corpus, 
+        document_ids=document_ids,
+        index_name=f"fold_{fold}_without_ft", 
+        split_documents=False,
+        use_faiss=True,
+    )
+
+    run_dict = {}
+    with open(os.path.join(f'fold_{fold}', 'test.json'), 'r') as f:
+        test_qrels = json.load(f)
+        for query_id, rel_dict in test_qrels.items():
+            query_info = query_info_dict[query_id]
+            search_result = RAG.search(query=query_info, k=args.top_k, force_fast=True)
+            run_dict[query_id] = {x['document_id']: x['score'] for x in search_result}
+    
+    with open(os.path.join(f'results', 'fold_100_ColBERTv2_without_ft.json'), 'w') as f:
+        json.dump(run_dict, f)
+    
+    metrics = ['map_cut_5', 'ndcg_cut_5', 'P_5', 'recall_5', 'map_cut_10', 'ndcg_cut_10', 'P_10', 'recall_10']
+    eval_results = {}
+    evaluator = pytrec_eval.RelevanceEvaluator(test_qrels, metrics)
+    eval_result = evaluator.evaluate(run_dict)
+    eval_results.update(eval_result)
+    
+    results = {}
+    for metric in metrics:
+        results[metric] = sum([x[metric] for x in eval_results.values()]) / len(eval_results)
+    for metric in metrics:
+        print(f'{metric}: {results[metric]:.4f}', end='\t')
+    print()
+
+
 if __name__ == "__main__":
     if args.mode == 'grid_search':
         grid_search()
     elif args.mode == 'train':
         train_with_best_params()
+    elif args.mode == 'without_ft':
+        search_without_ft()
