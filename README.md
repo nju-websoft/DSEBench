@@ -20,11 +20,19 @@ We reused the 46,615 datasets collected from NTCIR. The "datasets.json" file (av
 
 ## Keyword Queries
 
-The "[./Data/queries.tsv](./Data/queries.tsv)" file provides 3,979 keyword queries. Each row represents a query with two "\t"-separated columns: `query_id` and `query_text`. The queries can be divided into generated queries created from the metadata of datasets and NTCIR queries imported from the English part of NTCIR. The IDs of generated queries start with "GEN_", which are used in LLM annotations, while IDs starting with "NTCIR_1" are NTCIR queries used in LLM annotations, and IDs starting with "NTCIR_2" are NTCIR queries used in human annotations.
+The "[./Data/queries.tsv](./Data/queries.tsv)" file provides 3,979 keyword queries. Each row represents a query with two "\t"-separated columns: `query_id` and `query_text`. The queries can be divided into generated queries created from the metadata of datasets and NTCIR queries imported from the English part of NTCIR. The IDs of generated queries start with "GEN_", and the IDs starting with "NTCIR" are NTCIR queries.
 
-## Qrels
 
-The "[./Data/human_annotated_qrels.json](./Data/human_annotated_qrels.json)" file contains 7,415 qrels, and the "[./Data/llm_annotated_qrels.json](./Data/llm_annotated_qrels.json)" file contains 122,585 qrels. Each JSON object has eight keys: `query_id`, `target_dataset_id`, `candidate_dataset_id`, `qdpair_id` (the ID of the query-target dataset pair), `qrel` (relevance of a candidate dataset to a query, 0: irrelevant; 1: partially relevant; 2: highly relevant), `query_explanation`, `drel` (relevance of a candidate dataset to a target dataset, 0: irrelevant; 1: partially relevant; 2: highly relevant), and `dataset_explanation`. The `query_explanation` and `dataset_explanation` are both lists of length 5 consisting of 0 and 1, and the order of the corresponding fields is `[title, description, tags, author, summary]`.
+## Test and Training Cases
+
+In DSEBench, the input consists of a case, which includes a query and a set of target datasets that are known to be relevant to the query. The "[./Data/cases.tsv](./Data/cases.tsv)" file provides 141 test cases and 5,699 training cases. Each row represents a case with three "\t"-separated columns: `case_id`, `query_id`, and `target_dataset_id`.
+
+Test cases are identified by a `case_id` composed of pure numbers. These test cases are adapted from highly relevant query-dataset pairs from the NTCIR dataset. The remaining cases are training cases. Among these, those with a `case_id` starting with `l1_` are adapted from partially relevant query-dataset pairs from NTCIR, while those starting with `gen_` are synthetic training cases, where the queries are generated queries.
+
+
+## Judgments
+
+The "[./Data/human_annotated_judgments.json](./Data/human_annotated_judgments.json)" file contains 7,415 judgments, and the "[./Data/llm_annotated_judgments.json](./Data/llm_annotated_judgments.json)" file contains 122,585 judgments. Each JSON object has eight keys: `query_id`, `target_dataset_id`, `candidate_dataset_id`, `case_id` (the ID of the input), `query_rel` (relevance of the candidate dataset to the query, 0: irrelevant; 1: partially relevant; 2: highly relevant), `field_query_rel`, `target_sim` (similarity of the candidate dataset to the target datasets, 0: dissimilar; 1: partially similar; 2: highly similar), and `field_target_sim`. The `field_query_rel` and `field_target_sim` are both lists of length 5 consisting of 0 and 1, and the order of the corresponding fields is `[title, description, tags, author, summary]`.
 
 
 ```json
@@ -32,11 +40,11 @@ The "[./Data/human_annotated_qrels.json](./Data/human_annotated_qrels.json)" fil
     "query_id": "NTCIR_200000", 
     "target_dataset_id": "002ece58-9603-43f1-8e2e-54e3d9649e84", 
     "candidate_dataset_id": "99e3b6a2-d097-463f-b6e1-3caceff300c9", 
-    "qdpair_id": "1", 
-    "qrel": 1, 
-    "query_explanation": [1, 1, 1, 0, 0], 
-    "drel": 2, 
-    "dataset_explanation": [1, 1, 1, 1, 1]
+    "case_id": "1", 
+    "query_rel": 1, 
+    "field_query_rel": [1, 1, 1, 0, 0], 
+    "target_sim": 2, 
+    "field_target_sim": [1, 1, 1, 1, 1]
 }
 ```
 
@@ -51,14 +59,14 @@ We have evaluated two sparse retrieval models: (1) TF-IDF based cosine similarit
 
 The details of the experiments are given in the corresponding section of our paper.
 
-The "[./Baselines](./Baselines)" folder provides the results of each baseline method, where each JSON object is formatted as: `{qdpair_id: {dataset_id: score, ...}, ...}`.
+The "[./Baselines](./Baselines)" folder provides the results of each baseline method, where each JSON object is formatted as: `{case_id: {dataset_id: score, ...}, ...}`.
 
 ## Baselines for Field Relevance
 
 We employed post-hoc explanation methods to identify which fields of the candidate dataset are relevant to the query or target dataset.
 We have evaluated four different explainers, (1) feature ablation explainer, (2) LIME, (3) SHAP, (4) LLM, using F1-score, and the first three methods need to be combined with the retrieval models. 
 
-The "[./Baselines](./Baselines)" folder provides the results of each explainers, where each JSON object is formatted as: `{qdpair_id: {dataset_id: {explanaion_type: [0,1,1,0,0], ...}, ...}, ...}`.
+The "[./Baselines](./Baselines)" folder provides the results of each explainers, where each JSON object is formatted as: `{case_id: {dataset_id: {explanaion_type: [0,1,1,0,0], ...}, ...}, ...}`.
 
 For specific experimental details and data, please refer to our paper.
 
