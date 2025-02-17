@@ -97,6 +97,11 @@ See codes in [./Code/Retrieval/unsupervised_dense.py](./Code/Retrieval/unsupervi
 - **DPR**: See [./Code/Retrieval/DPR](./Code/Retrieval/DPR) for details.
 - **coCondenser**: See [./Code/Retrieval/coCondenser](./Code/Retrieval/coCondenser) for details.
 - **ColBERTv2**: See [./Code/Retrieval/ColBERTv2](./Code/Retrieval/ColBERTv2) for details.
+
+### Rerank Models
+
+- **BGE-reranker**: See codes in [./Code/Rerank/bge_reranker.py](./Code/Rerank/bge_reranker.py) for details.
+- **Stella & SFR**: See codes in [./Code/Rerank/dense_reranker.py](./Code/Rerank/dense_reranker.py) for details.
 - **LLM**: See [./Code/Retrieval/LLM](./Code/Retrieval/LLM) for details.
 
 ### Explanation Methods
