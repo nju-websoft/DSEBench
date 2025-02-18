@@ -17,14 +17,31 @@ We reused the 46,615 datasets collected from NTCIR. The "datasets.json" file (av
 }
 ```
 
+Below is an example of how to load and use the `datasets.json` file:
+
+```python
+import json
+
+# Load the dataset file
+with open('datasets.json', 'r') as f:
+    datasets_data = json.load(f)
+    
+    # Iterate through each judgment
+    for dataset in datasets_data:
+        dataset_id = dataset['id']  # Get the dataset ID
+        title = dataset['title']  # Get the title
+        
+        # Other code to process the judgment data...
+```
+
 ## Queries
 
 The "[./Data/queries.tsv](./Data/queries.tsv)" file provides 3,979 keyword queries. Each row represents a query with two "\t"-separated columns: `query_id` and `query_text`. The queries can be divided into two categories: generated queries, created from the metadata of datasets, and NTCIR queries, imported from the English part of the NTCIR dataset. Queries with IDs starting with "GEN_" are generated queries, while those starting with "NTCIR" are NTCIR queries.
 
-Below is an example of how to load and use the `queries.tsv` file:
+Below is an example of how to load and use the `./Data/queries.tsv` file:
 ```python
 # Load the queries file
-with open('queries.tsv', 'r') as f:
+with open('Data/queries.tsv', 'r') as f:
     # Iterate through each line
     for line in f:
         query_id, query_text = line.split('\t')  # Get the query ID and the query text
@@ -38,10 +55,10 @@ In DSEBench, each input consists of a case, which includes a query and a set of 
 
 Test cases are identified by a `case_id` composed of pure numbers. These test cases are adapted from highly relevant query-dataset pairs from the NTCIR dataset. The remaining cases are training cases. Among these, those with a `case_id` starting with `l1_` are adapted from partially relevant query-dataset pairs from NTCIR, while those starting with `gen_` are synthetic training cases, where the queries are generated queries.
 
-Below is an example of how to load and use the `cases.tsv` file:
+Below is an example of how to load and use the `./Data/cases.tsv` file:
 ```python
 # Load the cases file
-with open('cases.tsv', 'r') as f:
+with open('Data/cases.tsv', 'r') as f:
     # Iterate through each line
     for line in f:
         case_id, query_id, target_dataset_id = line.split('\t')  # Get the case ID, the query ID, and the target dataset ID
