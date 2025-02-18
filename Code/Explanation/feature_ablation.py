@@ -13,7 +13,7 @@ import subprocess
 from tqdm import tqdm
 
 
-fields = ['title', 'description', 'tags', 'author', 'schema']
+fields = ['title', 'description', 'tags', 'author', 'summary']
 
 
 def read_dataset_metadata(filename='dataset_metadata.json', sep='\n'):
