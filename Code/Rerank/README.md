@@ -4,9 +4,9 @@
 This folder contains the implementation for various reranking models used in the Dataset Search with Examples (DSE) task. The following models are included:
 
 - **Stella**
--  **SFR-Embedding-Mistral**
--  **BGE-reranker**
--  **LLM Reranking**
+- **SFR-Embedding-Mistral**
+- **BGE-reranker**
+- **LLM Reranking**
 
 ## Prepare Data Files
 
