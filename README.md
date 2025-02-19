@@ -215,7 +215,7 @@ The retrieval models include:
 
 ### Reranking Models
 
-Documentation and code examples for reranking models are provided in the [./Code/Rerank/README.md](./Code/Rerank/README.md).
+Documentation and code examples for reranking models are provided in the [./Code/Reranking/README.md](./Code/Reranking/README.md).
 
 The reranking models include:
 - Stella
