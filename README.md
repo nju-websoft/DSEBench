@@ -109,9 +109,48 @@ To ensure that evaluation results are comparable, we provide predefined train-va
 
 These files are used in the same way as the relevance judgments files.
 
-## Baselines for DSE
+## Baselines
 
-For **retrieval**, we evaluated two sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25 and five dense retrieval models: (3) BGE, (4) GTE, (5) Contextualized late interaction over BERT (ColBERTv2), (6) coCondenser and (7) Dense Passage Retrieval (DPR). For **reranking**, we have evaluated four models: (1) Stella, (2) SFR-Embedding-Mistral, (3) BGE-reranker, and (4) GLM-4-Plus.
+### Baselines for Retrieval and Reranking
+
+For **retrieval**, we evaluated two sparse retrieval models: (1) TF-IDF, (2) BM25 and five dense retrieval models: (3) BGE (bge-large-en-v1.5), (4) GTE (gte-large), (5) ColBERTv2, (6) coCondenser and (7) DPR. 
+
+| Retrieval Model              | MAP@5  | NDCG@5 | R@5    | MAP@10 | NDCG@10 | R@10   |
+|------------------------------|--------|--------|--------|--------|---------|--------|
+| ***Unsupervised Models***       |        |        |        |        |         |        |
+| BM25                         | 0.0982 | 0.3059 | 0.1705 | 0.1739 | 0.3416  | 0.2769 |
+| TF-IDF                       | 0.0921 | 0.2971 | 0.1572 | 0.1615 | 0.3227  | 0.2576 |
+| BGE                          | 0.1045 | 0.3233 | 0.1756 | 0.1834 | 0.3598  | 0.2887 |
+| GTE                          | 0.1104 | 0.3267 | 0.1820 | 0.1921 | 0.3649  | 0.2983 |
+| **Supervised Models (not fine-tuned)** |        |        |        |        |         |        |
+| DPR                          | 0.1072 | 0.3248 | 0.1706 | 0.1757 | 0.3472  | 0.2695 |
+| ColBERTv2                    | 0.1072 | 0.3206 | 0.1687 | 0.1799 | 0.3510  | 0.2720 |
+| coCondenser                  | 0.1029 | 0.3142 | 0.1597 | 0.1671 | 0.3326  | 0.2525 |
+| ***Supervised Models (fine-tuned with the five-fold split)*** |        |        |        |        |         |        |
+| DPR                          | 0.1204 | 0.3574 | 0.1833 | 0.1929 | 0.3769  | 0.2967 |
+| ColBERTv2                    | 0.1247 | 0.3449 | 0.1909 | 0.2052 | 0.3779  | 0.3066 |
+| coCondenser                  | **0.1387** | **0.3784** | **0.2110** | **0.2286** | **0.4171** | 0.3401 |
+| ***Supervised Models (fine-tuned with the annotator split)*** |        |        |        |        |         |        |
+| DPR                          | 0.1194 | 0.3551 | 0.1851 | 0.1936 | 0.3757  | 0.2914 |
+| ColBERTv2                    | 0.1109 | 0.3360 | 0.1800 | 0.1925 | 0.3760  | 0.3033 |
+| coCondenser                  | 0.1286 | 0.3656 | 0.1979 | 0.2238 | 0.4136  | **0.3367** |
+
+For **reranking**, we have evaluated four models: (1) Stella (stella_en_1.5B_v5), (2) SFR (SFR-Embedding-Mistral), (3) BGE-reranker (bge-reranker-v2-minicpm-layerwise), and (4) LLM (GLM-4-Plus).
+
+| Reranking Model                            | MAP@5   | NDCG@5 | R@5    | MAP@10 | NDCG@10 | R@10   |
+|--------------------------------------------|---------|--------|--------|--------|---------|--------|
+| ***Supervised Models (not fine-tuned)***     |         |        |        |        |         |        |
+| Stella                                     | 0.1180  | 0.3509 | 0.1938 | 0.2106 | 0.3981  | 0.3307 |
+| SFR                                        | 0.1184  | 0.3488 | 0.1940 | 0.2090 | 0.3920  | 0.3225 |
+| BGE-reranker                               | 0.1170  | 0.3470 | 0.1930 | 0.2032 | 0.3877  | 0.3163 |
+| ***Supervised Models (fine-tuned with the five-fold split)*** |         |        |        |        |         |        |
+| BGE-reranker                               | 0.1178  | 0.3464 | 0.1914 | 0.2085 | 0.3956  | 0.3273 |
+| ***Supervised Models (fine-tuned with the annotator split)*** |         |        |        |        |         |        |
+| BGE-reranker                               | 0.1249  | 0.3665 | 0.1985 | 0.2146 | 0.4099  | 0.3347 |
+| ***LLM***                                    |         |        |        |        |         |        |
+| zero-shot                                  | 0.1144  | 0.3130 | 0.1691 | 0.1748 | 0.3360  | 0.2652 |
+| one-shot                                   | 0.1154  | 0.3058 | 0.1691 | 0.1776 | 0.3327  | 0.2729 |
+| multi-layer                                | **0.1468** | **0.4071** | **0.2093** | **0.2398** | **0.4451** | **0.3608** |
 
 The details of the experiments are given in the corresponding section of our paper.
 
@@ -134,7 +173,7 @@ with open('Baselines/Retrieval/BM25_results.json', 'r') as f:
             # Additional processing for the results...
 ```
 
-## Baselines for Explanation
+### Baselines for Explanation
 
 We employed post-hoc explanation methods to identify which fields of the candidate dataset are relevant to the query or similar to the target datasets. We evaluated four different explainers: (1) Feature Ablation explainer, (2) LIME explainer, (3) SHAP explainer, and (4) LLM explainer, using F1-score. The first three methods are combined with retrieval models, while the LLM explainer operates independently.
 

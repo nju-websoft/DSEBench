@@ -73,7 +73,7 @@ This file contains information about each dataset. The format should be:
 }
 ```
 
-# Stella and SFR Reranking Models
+## Stella and SFR Reranking Models
 
 We implement reranking using Stella and SFR-Embedding-Mistral models.
 
@@ -83,7 +83,7 @@ We implement reranking using Stella and SFR-Embedding-Mistral models.
 For details on using and running these models, refer to the code in [./dense_rerank.py](./dense_rerank.py).
 
 
-# BGE-reranker
+## BGE-reranker
 
 We use [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) for BGE reranking. To use it, follow these steps:
 
@@ -98,7 +98,7 @@ pip install  .[finetune]
 2. Fine-tuning and usage details can be found in [./bge_reranker.py](./bge_reranker.py).
 
 
-# LLM Reranking
+## LLM Reranking
 
 For **LLM**-based reranking, the zero-shot and one-shot prompts are defined in [./LLM/prompt.py](./LLM/prompt.py).
 
