@@ -122,7 +122,7 @@ For **retrieval**, we evaluated two sparse retrieval models: (1) TF-IDF, (2) BM2
 | TF-IDF                       | 0.0921 | 0.2971 | 0.1572 | 0.1615 | 0.3227  | 0.2576 |
 | BGE                          | 0.1045 | 0.3233 | 0.1756 | 0.1834 | 0.3598  | 0.2887 |
 | GTE                          | 0.1104 | 0.3267 | 0.1820 | 0.1921 | 0.3649  | 0.2983 |
-| **Supervised Models (not fine-tuned)** |        |        |        |        |         |        |
+| ***Supervised Models (not fine-tuned)*** |        |        |        |        |         |        |
 | DPR                          | 0.1072 | 0.3248 | 0.1706 | 0.1757 | 0.3472  | 0.2695 |
 | ColBERTv2                    | 0.1072 | 0.3206 | 0.1687 | 0.1799 | 0.3510  | 0.2720 |
 | coCondenser                  | 0.1029 | 0.3142 | 0.1597 | 0.1671 | 0.3326  | 0.2525 |
