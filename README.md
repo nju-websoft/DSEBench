@@ -1,6 +1,11 @@
 # DSEBench
 
-DSEBench is a test collection for Dataset Search with Examples (DSE), a task aimed at returning top-ranked candidate datasets based on both a textual query and a set of target datasets that clarify the user's search intent. Unlike traditional dataset retrieval tasks that rely solely on a query, DSE incorporates example datasets to improve search relevance. We conduct experiments on both the DSE task and field-level relevance. For further details about this test collection, please refer to the following paper.
+**DSEBench** is a test collection designed to support the evaluation of **Dataset Search with Examples (DSE)**, a task that generalizes two established paradigms: keyword-based dataset search and similarity-based dataset discovery. Given a textual query $q$ and a set of target datasets $D_t$ known to be relevant, the goal of DSE is to retrieve a ranked list $D_c$ of candidate datasets that are both relevant to $q$ and similar to the datasets in $D_t$.
+
+As an extension, **Explainable DSE** further requires identifying, for each result dataset $d \in D_c$, a subset of metadata or content fields that explain its relevance to $q$ and similarity to $D_t$.
+
+For further details, please refer to the accompanying paper.
+
 
 ## Datasets
 
@@ -115,44 +120,11 @@ These files are used in the same way as the relevance judgments files.
 
 For **retrieval**, we evaluated two sparse retrieval models: (1) TF-IDF, (2) BM25 and five dense retrieval models: (3) BGE (bge-large-en-v1.5), (4) GTE (gte-large), (5) ColBERTv2, (6) coCondenser and (7) DPR. 
 
-| Retrieval Model              | MAP@5  | NDCG@5 | R@5    | MAP@10 | NDCG@10 | R@10   |
-|------------------------------|--------|--------|--------|--------|---------|--------|
-| ***Unsupervised Models***       |        |        |        |        |         |        |
-| BM25                         | 0.0982 | 0.3059 | 0.1705 | 0.1739 | 0.3416  | 0.2769 |
-| TF-IDF                       | 0.0921 | 0.2971 | 0.1572 | 0.1615 | 0.3227  | 0.2576 |
-| BGE                          | 0.1045 | 0.3233 | 0.1756 | 0.1834 | 0.3598  | 0.2887 |
-| GTE                          | 0.1104 | 0.3267 | 0.1820 | 0.1921 | 0.3649  | 0.2983 |
-| ***Supervised Models (not fine-tuned)*** |        |        |        |        |         |        |
-| DPR                          | 0.1072 | 0.3248 | 0.1706 | 0.1757 | 0.3472  | 0.2695 |
-| ColBERTv2                    | 0.1072 | 0.3206 | 0.1687 | 0.1799 | 0.3510  | 0.2720 |
-| coCondenser                  | 0.1029 | 0.3142 | 0.1597 | 0.1671 | 0.3326  | 0.2525 |
-| ***Supervised Models (fine-tuned with the five-fold split)*** |        |        |        |        |         |        |
-| DPR                          | 0.1204 | 0.3574 | 0.1833 | 0.1929 | 0.3769  | 0.2967 |
-| ColBERTv2                    | 0.1247 | 0.3449 | 0.1909 | 0.2052 | 0.3779  | 0.3066 |
-| coCondenser                  | **0.1387** | **0.3784** | **0.2110** | **0.2286** | **0.4171** | 0.3401 |
-| ***Supervised Models (fine-tuned with the annotator split)*** |        |        |        |        |         |        |
-| DPR                          | 0.1194 | 0.3551 | 0.1851 | 0.1936 | 0.3757  | 0.2914 |
-| ColBERTv2                    | 0.1109 | 0.3360 | 0.1800 | 0.1925 | 0.3760  | 0.3033 |
-| coCondenser                  | 0.1286 | 0.3656 | 0.1979 | 0.2238 | 0.4136  | **0.3367** |
+We also adapted the classic relevance feedback method — the Rocchio algorithm — for the DSE task to assess its effectiveness in this context.
 
 For **reranking**, we have evaluated four models: (1) Stella (stella_en_1.5B_v5), (2) SFR (SFR-Embedding-Mistral), (3) BGE-reranker (bge-reranker-v2-minicpm-layerwise), and (4) LLM (GLM-4-Plus).
 
-| Reranking Model                            | MAP@5   | NDCG@5 | R@5    | MAP@10 | NDCG@10 | R@10   |
-|--------------------------------------------|---------|--------|--------|--------|---------|--------|
-| ***Supervised Models (not fine-tuned)***     |         |        |        |        |         |        |
-| Stella                                     | 0.1180  | 0.3509 | 0.1938 | 0.2106 | 0.3981  | 0.3307 |
-| SFR                                        | 0.1184  | 0.3488 | 0.1940 | 0.2090 | 0.3920  | 0.3225 |
-| BGE-reranker                               | 0.1170  | 0.3470 | 0.1930 | 0.2032 | 0.3877  | 0.3163 |
-| ***Supervised Models (fine-tuned with the five-fold split)*** |         |        |        |        |         |        |
-| BGE-reranker                               | 0.1178  | 0.3464 | 0.1914 | 0.2085 | 0.3956  | 0.3273 |
-| ***Supervised Models (fine-tuned with the annotator split)*** |         |        |        |        |         |        |
-| BGE-reranker                               | 0.1249  | 0.3665 | 0.1985 | 0.2146 | 0.4099  | 0.3347 |
-| ***LLM***                                    |         |        |        |        |         |        |
-| zero-shot                                  | 0.1144  | 0.3130 | 0.1691 | 0.1748 | 0.3360  | 0.2652 |
-| one-shot                                   | 0.1154  | 0.3058 | 0.1691 | 0.1776 | 0.3327  | 0.2729 |
-| multi-layer                                | **0.1468** | **0.4071** | **0.2093** | **0.2398** | **0.4451** | **0.3608** |
-
-The details of the experiments are given in the corresponding section of our paper.
+The complete evaluation results are available in [./Baselines/evaluation_results.md](./Baselines/evaluation_results.md). For detailed experimental setups and analysis, please refer to the corresponding section in our paper.
 
 The "[./Baselines/Retrieval](./Baselines/Retrieval)" folder and the "[./Baselines/Reranking](./Baselines/Reranking)" folder contain the results for each baseline method, formatted as: `{case_id: {candidate_dataset_id: score, ...}, ...}`.
 
@@ -179,7 +151,7 @@ We employed post-hoc explanation methods to identify which fields of the candida
 
 The results for each explainer are stored in the "[./Baselines/Explanation](./Baselines/Explanation)" folder, formatted as: `{case_id: {candidate_dataset_id: {explanaion_type: [0,1,1,0,0], ...}, ...}, ...}`.
 
-Details of these experiments are provided in the corresponding sections of our paper.
+The complete evaluation results are available in [./Baselines/evaluation_results.md](./Baselines/evaluation_results.md). For detailed experimental setups and analysis, please refer to the corresponding section in our paper.
 
 Below is an example of how to load and process the retrieval results from the `./Baselines/Explanation/FeatureAblation/BM25_result.json` file:
 
@@ -252,6 +224,10 @@ The retrieval models include:
     - ColBERTv2
     - DPR
 
+The relevance feedback methods include:
+- Rocchio-P
+- Rocchio-PN
+
 ### Reranking Models
 
 Documentation and code examples for reranking models are provided in the [./Code/Reranking/README.md](./Code/Reranking/README.md).
@@ -271,6 +247,10 @@ The explanation methods include:
 - LIME
 - SHAP
 - LLM
+
+## LLM Prompts
+
+All prompts are located in [./Code/llm_prompts.py](./Code/llm_prompts.py).
 
 ## License
 

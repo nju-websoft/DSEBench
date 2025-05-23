@@ -136,3 +136,28 @@ bash pipeline.sh ./bert ./encoding fold_0 1e-5 8 0 20
 ```
 
 The parameters for training in DPR are the same as those used in coCondenser.
+
+
+## Relevance Feedback Methods
+
+We evaluate two variants of the Rocchio algorithm.
+
+### Rocchio-P
+
+Uses the target datasets as positive feedback to update the query vector.
+
+Usage:
+```python
+python run_rocchio_p.py
+```
+
+### Rocchio-PN
+
+Extends Rocchio-P by:
+- Treating target datasets as positive feedback, and
+- Considering retrieved datasets preceding a target dataset + the first subsequent dataset as negative feedback.
+
+Usage:
+```python
+python run_rocchio_pn.py
+```
