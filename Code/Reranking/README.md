@@ -102,4 +102,6 @@ pip install  .[finetune]
 
 For **LLM**-based reranking, the zero-shot and one-shot prompts are defined in [./LLM/prompt.py](./LLM/prompt.py).
 
+The implementation details of [RankLLM](https://github.com/castorini/rank_llm) refer to [./LLM/rankllm.py](./LLM/rankllm.py) and [./LLM/rank_DSE_template.yaml](./rank_DSE_template.yaml).
+
 The iterative grouping method used for reranking is based on the work of [Zhang et al.](https://doi.org/10.1145/3626772.3657966). For implementation details, refer to [./LLM/iterative_group_rerank.py](./LLM/iterative_group_rerank.py).

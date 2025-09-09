@@ -1,0 +1,13 @@
+method: "multiturn_listwise"
+system_message: "You are a relevance ranker specializing in re-ranking candidate datasets based on a query and a target dataset."
+prefix_user: |-
+  I will provide you with {num} candidate datasets, each indicated by a unique ID []. Your task is to re-rank these datasets based on their relevance to the query and their similarity to the target dataset. The ranking context (a query and a target dataset):
+  {query}
+prefix_assistant: "Okay, please provide the candidate datasets."
+body_user: "[{rank}] {candidate}"
+body_assistant: "Received dataset [{rank}]."
+suffix_user: |-
+  Ranking Context: {query}
+  Rank the {num} datasets provided above based on their relevance to the ranking context. The datasets should be listed in descending order of relevance using their identifiers. The most relevant dataset should be listed first. The output format should be [] > [], e.g., [1] > [2]. Only respond with the ranking results, do not say any word or explain.
+output_validation_regex: r"^\[\d+\]( > \[\d+\])*$"
+output_extraction_regex: r"\[(\d+)\]"
